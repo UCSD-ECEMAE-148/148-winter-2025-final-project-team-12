@@ -15,10 +15,10 @@ We are using OpenCV plus YOLO for camera vision and SLAM on Lidar to map a room,
  *ECE: Computer Engineering* 
 
 **A**licia Baker |
- *MAE: Mechanical Engineering*
+ *MAE: Mechanical Engineering: Controls & Robotics*
 
 **P**ranav Sakhuja |
- *MAE: Mechanical Engineering*
+ *MAE: Mechanical Engineering: Controls & Robotics* 
  
 **S**idharth Mundra |
  *CSE: Computer Science*
@@ -45,12 +45,13 @@ graph TD;
     C-->D;
 ```
 
-##Contact
+## Contact
+
 **M**atthew Tan |
 mztan@ucsd.edu | [LinkedIn](https://www.linkedin.com/in/matthewztan)
 
 **A**licia Baker |
-arbaker@ucsd.edu | [LinkedIn](
+arbaker@ucsd.edu | [LinkedIn](https://www.linkedin.com/in/alicia-r-baker)
 
 **P**ranav Sakhuja |
 psakhuja@ucsd.edu | [LinkedIn](https://www.linkedin.com/in/pranavsakhuja)
