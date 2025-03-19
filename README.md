@@ -5,7 +5,7 @@
 
 (insert robot pic)
 
-We are using OpenCV plus YOLO for camera vision and SLAM on Lidar to map a room, identify a tennis ball and notate it on the room map, and then find the shortest way out of the room.
+We are using OpenCV plus YOLO for camera vision and SLAM on Lidar to map a room, identify a tennis ball and notate it on the room map. 
 
 (insert team pic here)
 
@@ -26,16 +26,20 @@ We are using OpenCV plus YOLO for camera vision and SLAM on Lidar to map a room,
 ## Goals
 1) Use OpenCV plus YOLO for camera vision to identify a tennis ball
 2) Use SLAM on Lidar to map that room
-3) Run a script to find the shortest path out of the room
+3) Pin the location of the tennis ball on the room map
+4) Run a script to find the shortest path out of the room
 
 ## Deliverables
 **Our MVP**
-(video of map formation)
-(video of tennis ball identification)
-(video of tennis ball ping on map)
+- Camera Vision Identifying Tennis Ball
+  (video of tennis ball identification)
+- Room Map
+  (video of map building)
+- Place Ball on Map
+  (video of tennis ball ping on map)
 
-**BONUS**
-(video of shortest route identification)
+**Future Goals**
+- Find the shortest path out of the room
 
 ```mermaid
 graph TD;
