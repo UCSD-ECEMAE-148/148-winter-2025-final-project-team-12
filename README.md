@@ -8,9 +8,9 @@
  
  ### ECE/MAE 148 Final Project
  #### Team 12 Winter 2025
-
- <img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/group%20pic.jpg" alt="MapsAI group photo" height="400" />
+ 
  <img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/car.jpeg" alt="robocar on track" height="400" />
+ <img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/group%20pic.jpg" alt="MapsAI group photo" height="400" />
 </div>
 
 ## MapsAI - Team Members
