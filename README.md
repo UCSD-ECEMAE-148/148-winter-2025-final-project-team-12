@@ -23,6 +23,11 @@ We are using OpenCV plus YOLO for camera vision and SLAM on Lidar to map a room,
 **S**idharth Mundra |
  *CSE: Computer Science*
 
+## Abstract
+Our idea was to create a robot that can successfully complete a rescue mission through the use of SLAM and object detection. The robot drives around, mapping a room using lidar as it goes. While it drives, its camera searches for a green ball. Once the green ball is detected, the robot car will use the A* shortest path algorithm to locate the room's nearest exit.
+
+The robot utilizes the ROS2 topics for sensor fusion along with LiDAR for SLAM (Simultaneous Localization and Mapping). We also have Python scripts for real-time object detection on the OAK-D Lite camera, for implementing "follow the gap" navigation for object avoidance, and to manage the robot's movement.
+
 ## Goals
 1) Use OpenCV plus YOLO for camera vision to identify a tennis ball
 2) Use SLAM on Lidar to map that room
