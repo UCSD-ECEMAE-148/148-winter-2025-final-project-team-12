@@ -1,26 +1,30 @@
 <sup>148-winter-2025-final-project-team-12</sup>
 
-# **We Are MapsAI**
-***Search and Rescue: Tennis Ball Edition***
+<div align="center">
+ 
+ # Search and Rescue: Tennis Ball Edition
+ 
+ <img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/ucsd%20jacobs%20logo.png" alt="ucsd jacobs logo" width="600" />
+ 
+ ### ECE/MAE 148 Final Project
+ #### Team 12 Winter 2025
 
-<img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/car.jpeg" alt="robocar on track" width="300" />
+ <img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/group%20pic.jpg" alt="MapsAI group photo" height="400" />
+ <img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/car.jpeg" alt="robocar on track" height="400" />
+</div>
 
-We are using OpenCV plus YOLO for camera vision and SLAM on LiDAR to map a room, identify a tennis ball and notate it on the room map. 
+## MapsAI - Team Members
 
-<img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/group%20pic.jpg" alt="robocar on track" width="400" />
-
-## Team Members
-
-**M**atthew Tan |
+<ins>**M**</ins>atthew Tan |
  *ECE: Computer Engineering* 
 
-**A**licia Baker |
+<ins>**A**</ins>licia Baker |
  *MAE: Mechanical Engineering: Controls & Robotics*
 
-**P**ranav Sakhuja |
+<ins>**P**</ins>ranav Sakhuja |
  *MAE: Mechanical Engineering: Controls & Robotics* 
  
-**S**idharth Mundra |
+<ins>**S**</ins>idharth Mundra |
  *CSE: Computer Science*
 
 ## Abstract
