@@ -30,7 +30,7 @@ We are using OpenCV plus YOLO for camera vision and SLAM on Lidar to map a room,
 4) Run a script to find the shortest path out of the room
 
 ## Deliverables
-**Our MVP**
+**Our Minimum Viable Product (MVP)**
 - Camera Vision Identifying Tennis Ball
   (video of tennis ball identification)
 - Room Map
