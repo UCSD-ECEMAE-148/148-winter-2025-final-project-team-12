@@ -56,6 +56,11 @@ The robot utilizes the ROS2 topics for sensor fusion along with LiDAR for SLAM (
 
 Here is a video of the VSLAM running on a lab pc! Even though we didn't end up using it, we thought it was still pretty cool:<br>
 
+
+https://github.com/user-attachments/assets/e75f8c8a-4a3a-4a46-8c71-9e1c38dce97a
+
+
+
 ## Future Goals
 - Once the human is located, find the shortest path out of the room using the A* shorest path algorithm
 
