@@ -3,11 +3,11 @@
 # **We Are MapsAI**
 ***Search and Rescue: Tennis Ball Edition***
 
-(insert robot pic)
+<img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/car.jpeg" alt="robocar on track" width="300" />
 
 We are using OpenCV plus YOLO for camera vision and SLAM on Lidar to map a room, identify a tennis ball and notate it on the room map. 
 
-(insert team pic here)
+<img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/group%20pic.jpg" alt="robocar on track" width="400" />
 
 ## Team Members
 
