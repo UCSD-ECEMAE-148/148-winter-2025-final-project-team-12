@@ -2,7 +2,7 @@
 
 <div align="center">
  
- # Search and Rescue: Tennis Ball Edition
+ # MapsAI: Search and Rescue Robot
  
  <img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/ucsd%20jacobs%20logo.png" alt="ucsd jacobs logo" width="600" />
  
@@ -13,7 +13,7 @@
  <img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/group%20pic.jpg" alt="MapsAI group photo" height="300" />
 </div>
 
-## MapsAI - Team Members
+## Team Members
 
 <ins>**M**</ins>atthew Tan |
  *ECE: Computer Engineering* 
@@ -28,26 +28,26 @@
  *CSE: Computer Science*
 
 ## Abstract
-Our idea was to create a robot that can successfully complete a rescue mission through the use of SLAM and object detection. The robot drives around, mapping a room using LiDAR as it goes. While it drives, its camera searches for a green ball. Once the green ball is detected, the robot car will use the A* shortest path algorithm to locate the room's nearest exit.
+Our idea was to create a robot that can successfully complete a rescue mission through the use of SLAM and object detection. The robot drives around, mapping a room using LiDAR as it goes. While it drives, its camera searches for a human. Once the human is detected, the robot car will use the A* shortest path algorithm to locate the room's nearest exit.
 
 The robot utilizes the ROS2 topics for sensor fusion along with LiDAR for SLAM (Simultaneous Localization and Mapping). We also have Python scripts for real-time object detection on the OAK-D Lite camera, for implementing "follow the gap" navigation for object avoidance, and to manage the robot's movement.
 
 ## Goals
 **Our Minimum Viable Product (MVP)**
-- Use OpenCV plus YOLO for camera vision to identify a tennis ball
+- Use OpenCV plus YOLO for camera vision to identify a human
 - Use SLAM on LiDAR to map that room
-- Pin the location of the tennis ball on the room map
+- Pin the location of the human on the room map
 
 **Nice-to-Haves**
 - Run a script to find the shortest path out of the room
 
 ## What We Achieved
-- Camera Vision Identifying Tennis Ball
-  (video of tennis ball identification)
+- Camera Vision Identifying Human
+  (video of human identification)
 - Room Map
   (video of map building)
-- Place Ball on Map
-  (video of tennis ball ping on map)
+- Place Human on Map
+  (video of human ping on map)
 
 ## Challenges
 - We originally wanted to use VSLAM running on the OAK-D Pro processor from the TA car so that we could have a 3D point cloud map for precise mapping, but we ran into a plethora of compatability issues and ultimately had to give up on that idea after a week of effort
@@ -55,7 +55,7 @@ The robot utilizes the ROS2 topics for sensor fusion along with LiDAR for SLAM (
 - We tried using the SICK TiM LiDAR for the original implementation of the SLAM idea, but ran into issues and was forced to pivot to the less powerful LD06 LiDAR, which was both simpler to use and had much more supporting documentation that was provided by the class staff
 
 ## Future Goals
-- Once the ball is location, find the shortest path out of the room using the A* shorest path algorithm
+- Once the human is located, find the shortest path out of the room using the A* shorest path algorithm
 
 ```mermaid
 graph TD;
