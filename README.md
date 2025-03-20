@@ -5,7 +5,7 @@
 
 <img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/car.jpeg" alt="robocar on track" width="300" />
 
-We are using OpenCV plus YOLO for camera vision and SLAM on Lidar to map a room, identify a tennis ball and notate it on the room map. 
+We are using OpenCV plus YOLO for camera vision and SLAM on LiDAR to map a room, identify a tennis ball and notate it on the room map. 
 
 <img src="https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-12/blob/main/media/group%20pic.jpg" alt="robocar on track" width="400" />
 
@@ -24,18 +24,20 @@ We are using OpenCV plus YOLO for camera vision and SLAM on Lidar to map a room,
  *CSE: Computer Science*
 
 ## Abstract
-Our idea was to create a robot that can successfully complete a rescue mission through the use of SLAM and object detection. The robot drives around, mapping a room using lidar as it goes. While it drives, its camera searches for a green ball. Once the green ball is detected, the robot car will use the A* shortest path algorithm to locate the room's nearest exit.
+Our idea was to create a robot that can successfully complete a rescue mission through the use of SLAM and object detection. The robot drives around, mapping a room using LiDAR as it goes. While it drives, its camera searches for a green ball. Once the green ball is detected, the robot car will use the A* shortest path algorithm to locate the room's nearest exit.
 
 The robot utilizes the ROS2 topics for sensor fusion along with LiDAR for SLAM (Simultaneous Localization and Mapping). We also have Python scripts for real-time object detection on the OAK-D Lite camera, for implementing "follow the gap" navigation for object avoidance, and to manage the robot's movement.
 
 ## Goals
-1) Use OpenCV plus YOLO for camera vision to identify a tennis ball
-2) Use SLAM on Lidar to map that room
-3) Pin the location of the tennis ball on the room map
-4) Run a script to find the shortest path out of the room
-
-## Deliverables
 **Our Minimum Viable Product (MVP)**
+- Use OpenCV plus YOLO for camera vision to identify a tennis ball
+- Use SLAM on LiDAR to map that room
+- Pin the location of the tennis ball on the room map
+
+**Nice-to-Haves**
+- Run a script to find the shortest path out of the room
+
+## What We Achieved
 - Camera Vision Identifying Tennis Ball
   (video of tennis ball identification)
 - Room Map
@@ -43,8 +45,13 @@ The robot utilizes the ROS2 topics for sensor fusion along with LiDAR for SLAM (
 - Place Ball on Map
   (video of tennis ball ping on map)
 
-**Future Goals**
-- Find the shortest path out of the room
+## Challenges
+- We originally wanted to use VSLAM running on the OAK-D Pro processor from the TA car so that we could have a 3D point cloud map for precise mapping, but we ran into a plethora of compatability issues and ultimately had to give up on that idea after a week of effort
+- The initial idea of running both VSLAM and the object-detection script on the OAK-D Pro camera proved to have problems due to multiple accesses of the same port. We tried to resolve this issue by posting the camera feed to a server and having the scripts pull the data from the server, but this also did not work for us
+- We tried using the SICK TiM LiDAR for the original implementation of the SLAM idea, but ran into issues and was forced to pivot to the less powerful LD06 LiDAR, which was both simpler to use and had much more supporting documentation that was provided by the class staff
+
+## Future Goals
+- Once the ball is location, find the shortest path out of the room using the A* shorest path algorithm
 
 ```mermaid
 graph TD;
