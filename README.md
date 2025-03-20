@@ -45,7 +45,11 @@ The robot utilizes the ROS2 topics for sensor fusion along with LiDAR for SLAM (
 - Camera Vision Identifying Human
   (video of human identification)
 - Room Map
-  (video of map building)
+
+
+https://github.com/user-attachments/assets/1549cafd-7ef7-4579-bd22-0805c3ce8e3a
+
+
 - Place Human on Map
   (video of human ping on map)
 
@@ -54,7 +58,7 @@ The robot utilizes the ROS2 topics for sensor fusion along with LiDAR for SLAM (
 - The initial idea of running both VSLAM and the object-detection script on the OAK-D Pro camera proved to have problems due to multiple accesses of the same port. We tried to resolve this issue by posting the camera feed to a server and having the scripts pull the data from the server, but this also did not work for us
 - We tried using the SICK TiM LiDAR for the original implementation of the SLAM idea, but ran into issues and was forced to pivot to the less powerful LD06 LiDAR, which was both simpler to use and had much more supporting documentation that was provided by the class staff
 
-Here is a video of the VSLAM running on a lab pc! Even though we didn't end up using it, we thought it was still pretty cool:<br>
+Here is a video of the VSLAM running on a lab pc! Even though we didn't end up using it, we still think it's pretty cool:<br>
 
 
 https://github.com/user-attachments/assets/e75f8c8a-4a3a-4a46-8c71-9e1c38dce97a
