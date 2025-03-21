@@ -43,15 +43,16 @@ The robot utilizes the ROS2 topics for sensor fusion along with LiDAR for SLAM (
 
 ## What We Achieved
 - Camera Vision Identifying Human
-  (video of human identification)
+
+
+https://github.com/user-attachments/assets/e16ffcdf-1032-4d38-8db6-27d32a3e3822
+
+
 - Room Map
 
 
 https://github.com/user-attachments/assets/1549cafd-7ef7-4579-bd22-0805c3ce8e3a
 
-
-- Place Human on Map
-  (video of human ping on map)
 
 ## Challenges
 - We originally wanted to use VSLAM running on the OAK-D Pro processor from the TA car so that we could have a 3D point cloud map for precise mapping, but we ran into a plethora of compatability issues and ultimately had to give up on that idea after a week of effort
@@ -66,6 +67,7 @@ https://github.com/user-attachments/assets/e75f8c8a-4a3a-4a46-8c71-9e1c38dce97a
 
 
 ## Future Goals
+- Place Human on Map
 - Once the human is located, find the shortest path out of the room using the A* shorest path algorithm
 
 A*: Chooses the shortest distance between two points repeatedly. Thus, choosing B over A and then D over End.
