@@ -68,13 +68,18 @@ https://github.com/user-attachments/assets/e75f8c8a-4a3a-4a46-8c71-9e1c38dce97a
 ## Future Goals
 - Once the human is located, find the shortest path out of the room using the A* shorest path algorithm
 
+A*: Chooses the shortest distance between two points repeatedly. Thus, choosing B over A and then D over End.
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
+    Start-->A;
+    Start-->B;
+    A-->End;
+    B-->End;
     B-->D;
-    C-->D;
+    D-->End;
+   
 ```
+
 
 ## Contact
 
