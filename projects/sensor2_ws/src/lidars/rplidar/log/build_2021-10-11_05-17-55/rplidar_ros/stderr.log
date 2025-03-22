@@ -1,0 +1,422 @@
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/client.cpp:43: warning: "M_PI" redefined
+   43 | #define M_PI 3.1415926535897932384626433832795
+      | 
+In file included from /usr/include/c++/9/cmath:45,
+                 from /opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18,
+                 from /opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24,
+                 from /opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23,
+                 from /opt/ros/foxy/include/rclcpp/subscription.hpp:50,
+                 from /opt/ros/foxy/include/rclcpp/any_executable.hpp:25,
+                 from /opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24,
+                 from /opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/foxy/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/foxy/include/rclcpp/executor.hpp:33,
+                 from /opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/foxy/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/foxy/include/rclcpp/rclcpp.hpp:146,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/client.cpp:38:
+/usr/include/math.h:1070: note: this is the location of the previous definition
+ 1070 | # define M_PI  3.14159265358979323846 /* pi */
+      | 
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:51: warning: "M_PI" redefined
+   51 | #define M_PI 3.1415926535897932384626433832795
+      | 
+In file included from /usr/include/c++/9/cmath:45,
+                 from /opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18,
+                 from /opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24,
+                 from /opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23,
+                 from /opt/ros/foxy/include/rclcpp/subscription.hpp:50,
+                 from /opt/ros/foxy/include/rclcpp/any_executable.hpp:25,
+                 from /opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24,
+                 from /opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/foxy/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/foxy/include/rclcpp/executor.hpp:33,
+                 from /opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/foxy/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/foxy/include/rclcpp/rclcpp.hpp:146,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:36:
+/usr/include/math.h:1070: note: this is the location of the previous definition
+ 1070 | # define M_PI  3.14159265358979323846 /* pi */
+      | 
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:231:14: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+  231 |     ROS_INFO("RPLIDAR running on ROS package rplidar_ros. SDK Version:"RPLIDAR_SDK_VERSION"");
+      |              ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:36:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:50: warning: "M_PI" redefined
+   50 | #define M_PI 3.1415926535897932384626433832795
+      | 
+In file included from /usr/include/c++/9/cmath:45,
+                 from /opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18,
+                 from /opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24,
+                 from /opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23,
+                 from /opt/ros/foxy/include/rclcpp/subscription.hpp:50,
+                 from /opt/ros/foxy/include/rclcpp/any_executable.hpp:25,
+                 from /opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24,
+                 from /opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/foxy/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/foxy/include/rclcpp/executor.hpp:33,
+                 from /opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/foxy/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/foxy/include/rclcpp/rclcpp.hpp:146,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:34,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:36:
+/usr/include/math.h:1070: note: this is the location of the previous definition
+ 1070 | # define M_PI  3.14159265358979323846 /* pi */
+      | 
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+   59 |     _u8 data[0];
+      |              ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+  260 |     _u8  payload[0];
+      |                  ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+   59 |     _u8 data[0];
+      |              ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+  260 |     _u8  payload[0];
+      |                  ^
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function ‘virtual u_result rp::net::SocketAddress::getAddressAsString(char*, size_t) const’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:170:17: warning: ordered comparison of pointer with integer zero [-Wextra]
+  170 |     return ans<=0?RESULT_OPERATION_FAIL:RESULT_OK;
+      |                 ^
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function ‘virtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  438 |         if (ans == (int)len) {
+      |             ~~~~^~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function ‘virtual u_result rp::net::SocketAddress::getAddressAsString(char*, size_t) const’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:170:17: warning: ordered comparison of pointer with integer zero [-Wextra]
+  170 |     return ans<=0?RESULT_OPERATION_FAIL:RESULT_OK;
+      |                 ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:40,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function ‘virtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  726 |             assert(ans == (int)len);
+      |                    ~~~~^~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function ‘virtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  438 |         if (ans == (int)len) {
+      |             ~~~~^~~~~~~~~~~
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:40,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function ‘virtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  726 |             assert(ans == (int)len);
+      |                    ~~~~^~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘bool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74: warning: unused parameter ‘flags’ [-Wunused-parameter]
+   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, uint32_t flags)
+      |                                                                 ~~~~~~~~~^~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual void rp::arch::net::raw_serial::flush(_u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30: warning: unused parameter ‘flags’ [-Wunused-parameter]
+  281 | void raw_serial::flush( _u32 flags)
+      |                         ~~~~~^~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  286 | int raw_serial::waitforsent(_u32 timeout, size_t * returned_size)
+      |                             ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  292 | int raw_serial::waitforrecv(_u32 timeout, size_t * returned_size)
+      |                             ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘bool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74: warning: unused parameter ‘flags’ [-Wunused-parameter]
+   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, uint32_t flags)
+      |                                                                 ~~~~~~~~~^~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual void rp::arch::net::raw_serial::flush(_u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30: warning: unused parameter ‘flags’ [-Wunused-parameter]
+  281 | void raw_serial::flush( _u32 flags)
+      |                         ~~~~~^~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  286 | int raw_serial::waitforsent(_u32 timeout, size_t * returned_size)
+      |                             ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function ‘virtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  292 | int raw_serial::waitforrecv(_u32 timeout, size_t * returned_size)
+      |                             ~~~~~^~~~~~~
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+   59 |     _u8 data[0];
+      |              ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+  260 |     _u8  payload[0];
+      |                  ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:43:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp: In static member function ‘static rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:77: warning: cast between incompatible function types from ‘thread_proc_t’ {aka ‘long unsigned int (*)(void*)’} to ‘void* (*)(void*)’ [-Wcast-function-type]
+   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))proc, data);
+      |                                                                             ^~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp: In member function ‘u_result rp::hal::Thread::join(long unsigned int)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  129 | u_result Thread::join(unsigned long timeout)
+      |                       ~~~~~~~~~~~~~~^~~~~~~
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+   59 |     _u8 data[0];
+      |              ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+  260 |     _u8  payload[0];
+      |                  ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+   59 |     _u8 data[0];
+      |              ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+  260 |     _u8  payload[0];
+      |                  ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:43:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp: In static member function ‘static rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:77: warning: cast between incompatible function types from ‘thread_proc_t’ {aka ‘long unsigned int (*)(void*)’} to ‘void* (*)(void*)’ [-Wcast-function-type]
+   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))proc, data);
+      |                                                                             ^~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp: In member function ‘u_result rp::hal::Thread::join(long unsigned int)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  129 | u_result Thread::join(unsigned long timeout)
+      |                       ~~~~~~~~~~~~~~^~~~~~~
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+   59 |     _u8 data[0];
+      |              ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+  260 |     _u8  payload[0];
+      |                  ^
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  121 | u_result RPlidarDriverImplCommon::reset(_u32 timeout)
+      |                                         ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:274:75: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  274 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, _u32 timeout)
+      |                                                                      ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:872:108: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]
+  872 |             const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance);
+      |                                                                                                            ^
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In function ‘_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:996:23: warning: suggest parentheses around ‘-’ in operand of ‘&’ [-Wparentheses]
+  996 |     _u8 leftBytes = 4 - len & 0x3;
+      |                     ~~^~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1207:32: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+ 1207 |             if ((dist_predict1 == 0xFFFFFE00) || (dist_predict1 == 0x1FF)) {
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1215:32: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+ 1215 |             if ((dist_predict2 == 0xFFFFFE00) || (dist_predict2 == 0x1FF)) {
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1453:105: warning: unused parameter ‘timeoutInMs’ [-Wunused-parameter]
+ 1453 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, _u32 timeoutInMs)
+      |                                                                                                    ~~~~~^~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1550:83: warning: unused parameter ‘options’ [-Wunused-parameter]
+ 1550 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, _u32 options, RplidarScanMode* outUsedScanMode)
+      |                                                                              ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1774:45: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+ 1774 | u_result RPlidarDriverImplCommon::stop(_u32 timeout)
+      |                                        ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2162:68: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+ 2162 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, _u32 timeout)
+      |                                                               ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2240:83: warning: unused parameter ‘flag’ [-Wunused-parameter]
+ 2240 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, _u32 flag)
+      |                                                                              ~~~~~^~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2282:72: warning: unused parameter ‘flag’ [-Wunused-parameter]
+ 2282 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, _u32 flag)
+      |                                                                   ~~~~~^~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  121 | u_result RPlidarDriverImplCommon::reset(_u32 timeout)
+      |                                         ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:274:75: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  274 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, _u32 timeout)
+      |                                                                      ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:872:108: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]
+  872 |             const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance);
+      |                                                                                                            ^
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In function ‘_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:996:23: warning: suggest parentheses around ‘-’ in operand of ‘&’ [-Wparentheses]
+  996 |     _u8 leftBytes = 4 - len & 0x3;
+      |                     ~~^~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1207:32: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+ 1207 |             if ((dist_predict1 == 0xFFFFFE00) || (dist_predict1 == 0x1FF)) {
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1215:32: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+ 1215 |             if ((dist_predict2 == 0xFFFFFE00) || (dist_predict2 == 0x1FF)) {
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1453:105: warning: unused parameter ‘timeoutInMs’ [-Wunused-parameter]
+ 1453 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, _u32 timeoutInMs)
+      |                                                                                                    ~~~~~^~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1550:83: warning: unused parameter ‘options’ [-Wunused-parameter]
+ 1550 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, _u32 options, RplidarScanMode* outUsedScanMode)
+      |                                                                              ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1774:45: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+ 1774 | u_result RPlidarDriverImplCommon::stop(_u32 timeout)
+      |                                        ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2162:68: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+ 2162 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, _u32 timeout)
+      |                                                               ~~~~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2240:83: warning: unused parameter ‘flag’ [-Wunused-parameter]
+ 2240 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, _u32 flag)
+      |                                                                              ~~~~~^~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function ‘virtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2282:72: warning: unused parameter ‘flag’ [-Wunused-parameter]
+ 2282 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, _u32 flag)
+      |                                                                   ~~~~~^~~~
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:45:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+   59 |     _u8 data[0];
+      |              ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:45:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+  260 |     _u8  payload[0];
+      |                  ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:41,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:36:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+   59 |     _u8 data[0];
+      |              ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:41,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:36:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+  260 |     _u8  payload[0];
+      |                  ^
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp: In function ‘bool stop_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:166:70: warning: unused parameter ‘req’ [-Wunused-parameter]
+  166 | bool stop_motor(const std::shared_ptr<std_srvs::srv::Empty::Request> req,
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:167:65: warning: unused parameter ‘res’ [-Wunused-parameter]
+  167 |                 std::shared_ptr<std_srvs::srv::Empty::Response> res)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp: In function ‘bool start_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:178:71: warning: unused parameter ‘req’ [-Wunused-parameter]
+  178 | bool start_motor(const std::shared_ptr<std_srvs::srv::Empty::Request> req,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:179:66: warning: unused parameter ‘res’ [-Wunused-parameter]
+  179 |                  std::shared_ptr<std_srvs::srv::Empty::Response> res)
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp: In function ‘int main(int, char**)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:356:60: warning: ISO C++ forbids variable length array ‘angle_compensate_nodes’ [-Wvla]
+  356 |                     rplidar_response_measurement_node_hq_t angle_compensate_nodes[angle_compensate_nodes_count];
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:360:30: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  360 |                     for( ; i < count; i++ ) {
+      |                            ~~^~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp: In member function ‘void rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:245:50: warning: unused parameter ‘req’ [-Wunused-parameter]
+  245 | void rplidar_node::stop_motor(const EmptyRequest req, EmptyResponse res)
+      |                               ~~~~~~~~~~~~~~~~~~~^~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:245:69: warning: unused parameter ‘res’ [-Wunused-parameter]
+  245 | void rplidar_node::stop_motor(const EmptyRequest req, EmptyResponse res)
+      |                                                       ~~~~~~~~~~~~~~^~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp: In member function ‘void rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:256:51: warning: unused parameter ‘req’ [-Wunused-parameter]
+  256 | void rplidar_node::start_motor(const EmptyRequest req, EmptyResponse res)
+      |                                ~~~~~~~~~~~~~~~~~~~^~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:256:70: warning: unused parameter ‘res’ [-Wunused-parameter]
+  256 | void rplidar_node::start_motor(const EmptyRequest req, EmptyResponse res)
+      |                                                        ~~~~~~~~~~~~~~^~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp: In member function ‘void rplidar_ros::rplidar_node::publish_loop()’:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:343:46: warning: ISO C++ forbids variable length array ‘angle_compensate_nodes’ [-Wvla]
+  343 |       rplidar_response_measurement_node_hq_t angle_compensate_nodes[angle_compensate_nodes_count];
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:353:25: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  353 |           for (j = 0; j < m_angle_compensate_multiple; j++) {
+      |                       ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:374:44: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  374 |       for (size_t x = start_node, y = 0; x < end_node; ++x, ++y) {
+      |                                          ~~^~~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:381:11: warning: unused variable ‘angle_min’ [-Wunused-variable]
+  381 |     float angle_min = deg_2_rad(0.0f);
+      |           ^~~~~~~~~
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:382:11: warning: unused variable ‘angle_max’ [-Wunused-variable]
+  382 |     float angle_max = deg_2_rad(359.0f);
+      |           ^~~~~~~~~
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:50: warning: "M_PI" redefined
+   50 | #define M_PI 3.1415926535897932384626433832795
+      | 
+In file included from /usr/include/c++/9/cmath:45,
+                 from /opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18,
+                 from /opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24,
+                 from /opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23,
+                 from /opt/ros/foxy/include/rclcpp/subscription.hpp:50,
+                 from /opt/ros/foxy/include/rclcpp/any_executable.hpp:25,
+                 from /opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24,
+                 from /opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/foxy/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/foxy/include/rclcpp/executor.hpp:33,
+                 from /opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/foxy/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/foxy/include/rclcpp/rclcpp.hpp:146,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:34,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16:
+/usr/include/math.h:1070: note: this is the location of the previous definition
+ 1070 | # define M_PI  3.14159265358979323846 /* pi */
+      | 
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:41,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array ‘data’ [-Wpedantic]
+   59 |     _u8 data[0];
+      |              ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:41,
+                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array ‘payload’ [-Wpedantic]
+  260 |     _u8  payload[0];
+      |                  ^
+In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16:
+/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:76:14: warning: ‘float rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)’ defined but not used [-Wunused-function]
+   76 | static float getAngle(const rplidar_response_measurement_node_hq_t& node)
+      |              ^~~~~~~~

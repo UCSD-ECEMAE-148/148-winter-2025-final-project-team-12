@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_msgs/msg/UpdSOS.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_msgs {
+  module msg {
+    typedef uint8 uint8__3[3];
+    module UpdSOS_Constants {
+      const uint8 CLASS_ID = 9;
+      const uint8 MESSAGE_ID = 20;
+      const uint8 CMD_FLASH_BACKUP_CREATE = 0;
+      const uint8 CMD_FLASH_BACKUP_CLEAR = 1;
+    };
+    @verbatim (language="comment", text=
+      " UPD-SOS (0x09 0x14)" "\n"
+      "" "\n"
+      " Firmware Supported on:" "\n"
+      " u-blox 8 / u-blox M8 from protocol version 15 up to version 23.01")
+    struct UpdSOS {
+      @verbatim (language="comment", text=
+        " Command")
+      uint8 cmd;
+
+      @verbatim (language="comment", text=
+        " Reserved")
+      uint8__3 reserved1;
+    };
+  };
+};

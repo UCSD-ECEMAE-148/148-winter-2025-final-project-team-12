@@ -1,0 +1,3 @@
+[console_scripts]
+imu_node = razor_imu_9dof.imu_node:main
+

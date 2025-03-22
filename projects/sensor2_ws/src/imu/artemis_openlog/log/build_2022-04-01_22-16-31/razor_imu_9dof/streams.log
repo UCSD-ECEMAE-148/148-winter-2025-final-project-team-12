@@ -1,0 +1,42 @@
+[4.094s] Invoking command in '/home/projects/sensor2_ws/src/imu/artemis_openlog/src/razor_imu_9dof': PYTHONPATH=/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/razor_imu_9dof build --build-base /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build install --prefix /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof --record /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/install.log --single-version-externally-managed
+[5.489s] running egg_info
+[5.492s] creating ../../build/razor_imu_9dof/razor_imu_9dof.egg-info
+[5.493s] writing ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/PKG-INFO
+[5.495s] writing dependency_links to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/dependency_links.txt
+[5.496s] writing entry points to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/entry_points.txt
+[5.496s] writing requirements to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/requires.txt
+[5.497s] writing top-level names to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/top_level.txt
+[5.503s] writing manifest file '../../build/razor_imu_9dof/razor_imu_9dof.egg-info/SOURCES.txt'
+[5.736s] reading manifest file '../../build/razor_imu_9dof/razor_imu_9dof.egg-info/SOURCES.txt'
+[5.741s] writing manifest file '../../build/razor_imu_9dof/razor_imu_9dof.egg-info/SOURCES.txt'
+[5.742s] running build
+[5.744s] running build_py
+[5.744s] creating /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build
+[5.745s] creating /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib
+[5.746s] creating /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof
+[5.746s] copying razor_imu_9dof/imu_node.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof
+[5.747s] copying razor_imu_9dof/__init__.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof
+[5.747s] running install
+[5.750s] running install_lib
+[5.755s] creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof
+[5.756s] copying /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof/imu_node.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof
+[5.757s] copying /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof/__init__.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof
+[5.759s] byte-compiling /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof/imu_node.py to imu_node.cpython-38.pyc
+[5.778s] byte-compiling /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof/__init__.py to __init__.cpython-38.pyc
+[5.778s] running install_data
+[5.782s] creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index
+[5.783s] creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index/resource_index
+[5.784s] creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index/resource_index/packages
+[5.784s] copying resource/razor_imu_9dof -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index/resource_index/packages
+[5.785s] copying package.xml -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof
+[5.786s] creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/launch
+[5.786s] copying launch/razor-pub.launch.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/launch
+[5.787s] creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/param
+[5.788s] copying param/razor_diags.yaml -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/param
+[5.788s] copying param/razor.yaml -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/param
+[5.789s] running install_egg_info
+[5.794s] Copying ../../build/razor_imu_9dof/razor_imu_9dof.egg-info to /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof-0.0.0-py3.8.egg-info
+[5.800s] running install_scripts
+[5.896s] Installing imu_node script to /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/razor_imu_9dof
+[5.897s] writing list of installed files to '/home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/install.log'
+[6.017s] Invoked command in '/home/projects/sensor2_ws/src/imu/artemis_openlog/src/razor_imu_9dof' returned '0': PYTHONPATH=/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/razor_imu_9dof build --build-base /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build install --prefix /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof --record /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/install.log --single-version-externally-managed

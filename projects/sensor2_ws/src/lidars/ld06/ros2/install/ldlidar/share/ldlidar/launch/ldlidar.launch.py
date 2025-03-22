@@ -1,0 +1,36 @@
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument
+from launch.substitutions import LaunchConfiguration
+from launch_ros.actions import Node
+
+
+def generate_launch_description():
+    return LaunchDescription([
+        DeclareLaunchArgument(
+            name='serial_port', 
+            default_value='',
+            description='LD06 Serial Port'
+        ),
+        DeclareLaunchArgument(
+            name='topic_name', 
+            default_value='scan',
+            description='LD06 Topic Name'
+        ),
+        DeclareLaunchArgument(
+            name='lidar_frame', 
+            default_value='laser',
+            description='LD06 Topic Name'
+        ),
+
+        Node(
+            package='ldlidar',
+            executable='ldlidar',
+            name='ldlidar',
+            output='screen',
+            parameters=[
+                {'serial_port': LaunchConfiguration("serial_port")},
+                {'topic_name': LaunchConfiguration("topic_name")},
+                {'lidar_frame': LaunchConfiguration("lidar_frame")}
+            ]
+        )
+    ])

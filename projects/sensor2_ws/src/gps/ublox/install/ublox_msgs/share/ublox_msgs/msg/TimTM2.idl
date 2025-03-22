@@ -1,0 +1,70 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_msgs/msg/TimTM2.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_msgs {
+  module msg {
+    module TimTM2_Constants {
+      const uint8 CLASS_ID = 13;
+      const uint8 MESSAGE_ID = 3;
+      const uint8 FLAGS_MODE_RUNNING = 1;
+      const uint8 FLAGS_RUN = 2;
+      const uint8 FLAGS_NEWFALLINGEDGE = 4;
+      const uint8 FLAGS_TIMEBASE_GNSS = 8;
+      const uint8 FLAGS_TIMEBASE_UTC = 16;
+      const uint8 FLAGS_UTC_AVAIL = 32;
+      const uint8 FLAGS_TIME_VALID = 64;
+      const uint8 FLAGS_NEWRISINGEDGE = 128;
+    };
+    @verbatim (language="comment", text=
+      " TIM-TM2 (0x0D, 0x03)" "\n"
+      " Time mark data" "\n"
+      "" "\n"
+      " Description for details." "\n"
+      "" "\n"
+      " Supported on:" "\n"
+      "  - u-blox 8 / u-blox M8 with protocol version 22 (only with Timing Products)")
+    struct TimTM2 {
+      @verbatim (language="comment", text=
+        " Channel (i.e. EXTINT) upon which the pulse was measured")
+      uint8 ch;
+
+      @verbatim (language="comment", text=
+        " Bitmask [newRisingEdge, time, utc, timeBase, , newFallingEdge, run, mode]")
+      uint8 flags;
+
+      @verbatim (language="comment", text=
+        " rising edge count")
+      uint16 rising_edge_count;
+
+      @verbatim (language="comment", text=
+        " week number of last rising edge")
+      uint16 wn_r;
+
+      @verbatim (language="comment", text=
+        " week number of last falling edge")
+      uint16 wn_f;
+
+      @verbatim (language="comment", text=
+        " Tow of rising edge")
+      uint32 tow_ms_r;
+
+      @verbatim (language="comment", text=
+        " Millisecond Fraction of Tow of rising edge in nanoseconds")
+      uint32 tow_sub_ms_r;
+
+      @verbatim (language="comment", text=
+        " tow of falling edge")
+      uint32 tow_ms_f;
+
+      @verbatim (language="comment", text=
+        " millisecond fraction of tow of falling edge in nanoseconds")
+      uint32 tow_sub_ms_f;
+
+      @verbatim (language="comment", text=
+        " Accuracy estimate")
+      uint32 acc_est;
+    };
+  };
+};

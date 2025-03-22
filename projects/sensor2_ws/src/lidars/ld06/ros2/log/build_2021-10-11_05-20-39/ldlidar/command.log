@@ -1,0 +1,6 @@
+Invoking command in '/home/projects/sensor_ws/src/lidars/ld06/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/projects/sensor_ws/src/lidars/ld06/src/ldlidar -DCMAKE_INSTALL_PREFIX=/home/projects/sensor_ws/src/lidars/ld06/install/ldlidar
+Invoked command in '/home/projects/sensor_ws/src/lidars/ld06/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/projects/sensor_ws/src/lidars/ld06/src/ldlidar -DCMAKE_INSTALL_PREFIX=/home/projects/sensor_ws/src/lidars/ld06/install/ldlidar
+Invoking command in '/home/projects/sensor_ws/src/lidars/ld06/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/projects/sensor_ws/src/lidars/ld06/build/ldlidar -- -j8 -l8
+Invoked command in '/home/projects/sensor_ws/src/lidars/ld06/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/projects/sensor_ws/src/lidars/ld06/build/ldlidar -- -j8 -l8
+Invoking command in '/home/projects/sensor_ws/src/lidars/ld06/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/projects/sensor_ws/src/lidars/ld06/build/ldlidar
+Invoked command in '/home/projects/sensor_ws/src/lidars/ld06/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/projects/sensor_ws/src/lidars/ld06/build/ldlidar

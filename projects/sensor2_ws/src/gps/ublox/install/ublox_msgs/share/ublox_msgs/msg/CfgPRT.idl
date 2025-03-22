@@ -1,0 +1,109 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_msgs/msg/CfgPRT.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_msgs {
+  module msg {
+    module CfgPRT_Constants {
+      const uint8 CLASS_ID = 6;
+      const uint8 MESSAGE_ID = 0;
+      const uint8 PORT_ID_DDC = 0;
+      const uint8 PORT_ID_UART1 = 1;
+      const uint8 PORT_ID_UART2 = 2;
+      const uint8 PORT_ID_USB = 3;
+      const uint8 PORT_ID_SPI = 4;
+      const uint16 TX_READY_EN = 1;
+      const uint16 TX_READY_POLARITY_HIGH_ACTIVE = 0;
+      const uint16 TX_READY_POLARITY_LOW_ACTIVE = 2;
+      const uint16 TX_READY_PIN_SHIFT = 2;
+      const uint16 TX_READY_PIN_MASK = 124;
+      const uint16 TX_READY_THRES_SHIFT = 7;
+      const uint16 TX_READY_THRES_MASK = 65408;
+      const uint32 MODE_DDC_SLAVE_ADDR_SHIFT = 1;
+      const uint32 MODE_DDC_SLAVE_ADDR_MASK = 254;
+      const uint32 MODE_RESERVED1 = 16;
+      const uint32 MODE_CHAR_LEN_MASK = 192;
+      const uint32 MODE_CHAR_LEN_5BIT = 0;
+      const uint32 MODE_CHAR_LEN_6BIT = 64;
+      const uint32 MODE_CHAR_LEN_7BIT = 128;
+      const uint32 MODE_CHAR_LEN_8BIT = 192;
+      const uint32 MODE_PARITY_MASK = 3584;
+      const uint32 MODE_PARITY_EVEN = 0;
+      const uint32 MODE_PARITY_ODD = 512;
+      const uint32 MODE_PARITY_NO = 2048;
+      const uint32 MODE_STOP_BITS_MASK = 12288;
+      const uint32 MODE_STOP_BITS_1 = 0;
+      const uint32 MODE_STOP_BITS_15 = 4096;
+      const uint32 MODE_STOP_BITS_2 = 8192;
+      const uint32 MODE_STOP_BITS_05 = 12288;
+      const uint32 MODE_SPI_SPI_MODE_CPOL = 4;
+      const uint32 MODE_SPI_SPI_MODE_CPHA = 2;
+      const uint32 MODE_SPI_FLOW_CONTROL = 64;
+      const uint32 MODE_SPI_FF_COUNT_SHIFT = 8;
+      const uint32 MODE_SPI_FF_COUNT_MASK = 16128;
+      const uint16 PROTO_UBX = 1;
+      const uint16 PROTO_NMEA = 2;
+      const uint16 PROTO_RTCM = 4;
+      const uint16 PROTO_RTCM3 = 32;
+      const uint16 FLAGS_EXTENDED_TX_TIMEOUT = 2;
+    };
+    @verbatim (language="comment", text=
+      " CFG-PRT (0x06 0x00)" "\n"
+      " Port Configuration for DDC, UART, USB, SPI" "\n"
+      "" "\n"
+      " Several configurations can be concatenated to one input message. In this case" "\n"
+      " the payload length can be a multiple of the normal length (see the other" "\n"
+      " versions of CFG-PRT). Output messages from the module contain only one" "\n"
+      " configuration unit.")
+    struct CfgPRT {
+      @verbatim (language="comment", text=
+        " Port Identifier Number")
+      uint8 port_id;
+
+      @verbatim (language="comment", text=
+        " Reserved")
+      uint8 reserved0;
+
+      @verbatim (language="comment", text=
+        " TX ready PIN configuration (since Firmware 7.01)" "\n"
+        " reserved (Always set to zero) up to Firmware 7.01")
+      uint16 tx_ready;
+
+      @verbatim (language="comment", text=
+        " A bit mask describing the DDC, UART or SPI mode" "\n"
+        " Reserved for USB")
+      uint32 mode;
+
+      @verbatim (language="comment", text=
+        " UART Baudrate in bits/second" "\n"
+        " Reserved for USB, SPI, DDC" "\n"
+        " Possible values: 4800, 9600, 19200, 38400, 57600," "\n"
+        "                  115200, 230400, 460800")
+      @unit (value="bits/s")
+      uint32 baud_rate;
+
+      @verbatim (language="comment", text=
+        " A mask describing which input protocols are active." "\n"
+        " Each bit of this mask is used for a protocol." "\n"
+        " Through that, multiple protocols can be defined" "\n"
+        " on a single port.")
+      uint16 in_proto_mask;
+
+      @verbatim (language="comment", text=
+        " A mask describing which output protocols are active." "\n"
+        " Each bit of this mask is used for a protocol." "\n"
+        " Through that, multiple protocols can be defined" "\n"
+        " on a single port.")
+      uint16 out_proto_mask;
+
+      @verbatim (language="comment", text=
+        " Flags for UART & SPI, Reserved for USB")
+      uint16 flags;
+
+      @verbatim (language="comment", text=
+        " Always set to zero")
+      uint16 reserved1;
+    };
+  };
+};

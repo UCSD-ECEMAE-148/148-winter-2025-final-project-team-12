@@ -1,0 +1,79 @@
+[15.436s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_actuator2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/install.log --single-version-externally-managed
+[17.841s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[17.863s]   warnings.warn(
+[17.863s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[17.864s]   warnings.warn(
+[18.123s] running egg_info
+[18.133s] creating ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info
+[18.135s] writing ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/PKG-INFO
+[18.137s] writing dependency_links to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/dependency_links.txt
+[18.138s] writing entry points to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/entry_points.txt
+[18.139s] writing requirements to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/requires.txt
+[18.140s] writing top-level names to ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/top_level.txt
+[18.154s] writing manifest file '../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/SOURCES.txt'
+[18.183s] reading manifest file '../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/SOURCES.txt'
+[18.197s] writing manifest file '../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info/SOURCES.txt'
+[18.197s] running build
+[18.198s] running build_py
+[18.198s] creating /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build
+[18.199s] creating /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib
+[18.199s] creating /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg
+[18.200s] copying ucsd_robocar_actuator2_pkg/vesc_twist_node.py -> /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg
+[18.205s] copying ucsd_robocar_actuator2_pkg/vesc_odom_node.py -> /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg
+[18.206s] copying ucsd_robocar_actuator2_pkg/__init__.py -> /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg
+[18.206s] copying ucsd_robocar_actuator2_pkg/adafruit_twist_node.py -> /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg
+[18.211s] copying ucsd_robocar_actuator2_pkg/adafruit_continuous_servo_node.py -> /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg
+[18.211s] copying ucsd_robocar_actuator2_pkg/adafruit_servo_node.py -> /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg
+[18.212s] creating /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg/vesc_submodule
+[18.212s] copying ucsd_robocar_actuator2_pkg/vesc_submodule/__init__.py -> /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg/vesc_submodule
+[18.213s] copying ucsd_robocar_actuator2_pkg/vesc_submodule/vesc_client.py -> /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg/vesc_submodule
+[18.233s] running install
+[18.234s] running install_lib
+[18.235s] creating /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg
+[18.235s] copying /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg/vesc_twist_node.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg
+[18.236s] copying /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg/vesc_odom_node.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg
+[18.241s] copying /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg/__init__.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg
+[18.256s] creating /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg/vesc_submodule
+[18.276s] copying /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg/vesc_submodule/__init__.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg/vesc_submodule
+[18.277s] copying /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg/vesc_submodule/vesc_client.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg/vesc_submodule
+[18.278s] copying /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg/adafruit_twist_node.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg
+[18.279s] copying /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg/adafruit_continuous_servo_node.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg
+[18.280s] copying /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build/lib/ucsd_robocar_actuator2_pkg/adafruit_servo_node.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg
+[18.288s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg/vesc_twist_node.py to vesc_twist_node.cpython-38.pyc
+[18.291s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg/vesc_odom_node.py to vesc_odom_node.cpython-38.pyc
+[18.294s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg/__init__.py to __init__.cpython-38.pyc
+[18.295s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg/vesc_submodule/__init__.py to __init__.cpython-38.pyc
+[18.299s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg/vesc_submodule/vesc_client.py to vesc_client.cpython-38.pyc
+[18.301s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg/adafruit_twist_node.py to adafruit_twist_node.cpython-38.pyc
+[18.303s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg/adafruit_continuous_servo_node.py to adafruit_continuous_servo_node.cpython-38.pyc
+[18.304s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg/adafruit_servo_node.py to adafruit_servo_node.cpython-38.pyc
+[18.305s] running install_data
+[18.307s] creating /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ament_index
+[18.308s] creating /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ament_index/resource_index
+[18.309s] creating /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ament_index/resource_index/packages
+[18.310s] copying resource/ucsd_robocar_actuator2_pkg -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ament_index/resource_index/packages
+[18.313s] copying package.xml -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg
+[18.314s] creating /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/launch
+[18.315s] copying launch/adafruit_servo.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/launch
+[18.316s] copying launch/vesc_twist.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/launch
+[18.317s] copying launch/adafruit_continuous_servo.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/launch
+[18.317s] copying launch/adafruit_twist.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/launch
+[18.318s] copying launch/vesc_odom.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/launch
+[18.319s] creating /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/config
+[18.320s] copying config/adafruit_continuous_servo_calibration.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/config
+[18.320s] copying config/ekf_odom.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/config
+[18.320s] copying config/adafruit_servo_calibration.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/config
+[18.321s] copying config/vesc_mux.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/config
+[18.322s] copying config/vesc_twsit_calibration.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/config
+[18.323s] copying config/adafruit_twist_calibration.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/config
+[18.324s] copying config/vesc_odom.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/share/ucsd_robocar_actuator2_pkg/config
+[18.324s] running install_egg_info
+[18.335s] Copying ../../../build/ucsd_robocar_actuator2_pkg/ucsd_robocar_actuator2_pkg.egg-info to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages/ucsd_robocar_actuator2_pkg-0.0.0-py3.8.egg-info
+[18.352s] running install_scripts
+[18.451s] Installing adafruit_continuous_servo_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg
+[18.452s] Installing adafruit_servo_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg
+[18.453s] Installing adafruit_twist_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg
+[18.453s] Installing vesc_odom_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg
+[18.454s] Installing vesc_twist_node script to /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/ucsd_robocar_actuator2_pkg
+[18.459s] writing list of installed files to '/home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/install.log'
+[20.156s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_actuator2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_actuator2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_actuator2_pkg/install.log --single-version-externally-managed

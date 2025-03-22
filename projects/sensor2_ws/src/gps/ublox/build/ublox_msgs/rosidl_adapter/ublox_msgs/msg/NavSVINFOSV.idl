@@ -1,0 +1,66 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_msgs/msg/NavSVINFOSV.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_msgs {
+  module msg {
+    module NavSVINFOSV_Constants {
+      const uint8 FLAGS_SV_USED = 1;
+      const uint8 FLAGS_DIFF_CORR = 2;
+      const uint8 FLAGS_ORBIT_AVAIL = 4;
+      const uint8 FLAGS_ORBIT_EPH = 8;
+      const uint8 FLAGS_UNHEALTHY = 16;
+      const uint8 FLAGS_ORBIT_ALM = 32;
+      const uint8 FLAGS_ORBIT_AOP = 64;
+      const uint8 FLAGS_SMOOTHED = 128;
+      const uint8 QUALITY_IDLE = 0;
+      const uint8 QUALITY_SEARCHING = 1;
+      const uint8 QUALITY_ACQUIRED = 2;
+      const uint8 QUALITY_DETECTED = 3;
+      const uint8 QUALITY_CODE_LOCK = 4;
+      const uint8 QUALITY_CODE_AND_CARRIER_LOCKED1 = 5;
+      const uint8 QUALITY_CODE_AND_CARRIER_LOCKED2 = 6;
+      const uint8 QUALITY_CODE_AND_CARRIER_LOCKED3 = 7;
+    };
+    @verbatim (language="comment", text=
+      " see message NavSVINFO")
+    struct NavSVINFOSV {
+      @verbatim (language="comment", text=
+        " Channel number, 255 for SVs not assigned to a channel")
+      uint8 chn;
+
+      @verbatim (language="comment", text=
+        " Satellite ID")
+      uint8 svid;
+
+      @verbatim (language="comment", text=
+        " Bitmask")
+      uint8 flags;
+
+      @verbatim (language="comment", text=
+        " Bitfield")
+      uint8 quality;
+
+      @verbatim (language="comment", text=
+        " Carrier to Noise Ratio (Signal Strength)")
+      @unit (value="dBHz")
+      uint8 cno;
+
+      @verbatim (language="comment", text=
+        " Elevation in integer degrees")
+      @unit (value="deg")
+      int8 elev;
+
+      @verbatim (language="comment", text=
+        " Azimuth in integer degrees")
+      @unit (value="deg")
+      int16 azim;
+
+      @verbatim (language="comment", text=
+        " Pseudo range residual in centimetres")
+      @unit (value="cm")
+      int32 pr_res;
+    };
+  };
+};

@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.004559] (-) JobUnselected: {'identifier': 'ucsd_robocar_actuator2_pkg'}
+[0.005819] (-) JobUnselected: {'identifier': 'ucsd_robocar_basics2_pkg'}
+[0.006074] (-) JobUnselected: {'identifier': 'ucsd_robocar_control2_pkg'}
+[0.006839] (-) JobUnselected: {'identifier': 'ucsd_robocar_lane_detection2_pkg'}
+[0.008342] (-) JobUnselected: {'identifier': 'ucsd_robocar_nav2_pkg'}
+[0.008504] (-) JobUnselected: {'identifier': 'ucsd_robocar_path2_pkg'}
+[0.008772] (-) JobUnselected: {'identifier': 'ucsd_robocar_sensor2_pkg'}
+[0.008926] (follow_the_gap_bridge) JobQueued: {'identifier': 'follow_the_gap_bridge', 'dependencies': OrderedDict()}
+[0.009125] (follow_the_gap_bridge) JobStarted: {'identifier': 'follow_the_gap_bridge'}
+[0.099291] (-) TimerEvent: {}
+[0.201338] (-) TimerEvent: {}
+[0.303758] (-) TimerEvent: {}
+[0.404695] (-) TimerEvent: {}
+[0.505599] (-) TimerEvent: {}
+[0.606643] (-) TimerEvent: {}
+[0.708154] (-) TimerEvent: {}
+[0.809022] (-) TimerEvent: {}
+[0.910615] (-) TimerEvent: {}
+[1.012302] (-) TimerEvent: {}
+[1.113195] (-) TimerEvent: {}
+[1.214295] (-) TimerEvent: {}
+[1.315210] (-) TimerEvent: {}
+[1.416077] (-) TimerEvent: {}
+[1.517135] (-) TimerEvent: {}
+[1.618832] (-) TimerEvent: {}
+[1.719896] (-) TimerEvent: {}
+[1.821473] (-) TimerEvent: {}
+[1.923618] (-) TimerEvent: {}
+[2.033694] (-) TimerEvent: {}
+[2.136323] (-) TimerEvent: {}
+[2.237349] (-) TimerEvent: {}
+[2.338701] (-) TimerEvent: {}
+[2.439904] (-) TimerEvent: {}
+[2.540850] (-) TimerEvent: {}
+[2.641808] (-) TimerEvent: {}
+[2.742840] (-) TimerEvent: {}
+[2.843786] (-) TimerEvent: {}
+[2.945153] (-) TimerEvent: {}
+[3.046599] (-) TimerEvent: {}
+[3.147793] (-) TimerEvent: {}
+[3.248990] (-) TimerEvent: {}
+[3.350875] (-) TimerEvent: {}
+[3.451882] (-) TimerEvent: {}
+[3.552725] (-) TimerEvent: {}
+[3.653513] (-) TimerEvent: {}
+[3.754367] (-) TimerEvent: {}
+[3.855204] (-) TimerEvent: {}
+[3.956028] (-) TimerEvent: {}
+[4.056865] (-) TimerEvent: {}
+[4.157874] (-) TimerEvent: {}
+[4.258864] (-) TimerEvent: {}
+[4.358228] (follow_the_gap_bridge) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/projects/ros2_ws/install/follow_the_gap_bridge', '--editable', '--build-directory', '/home/projects/ros2_ws/build/follow_the_gap_bridge/build', '--no-deps', 'install_data', '--install-dir', '/home/projects/ros2_ws/install/follow_the_gap_bridge'], 'cwd': '/home/projects/ros2_ws/build/follow_the_gap_bridge', 'env': {'HOSTNAME': 'ucsd-black', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/projects/sensor2_ws/src/vesc/install/vesc_driver/lib:/home/projects/sensor2_ws/src/vesc/install/vesc_ackermann/lib:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs/lib:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/projects/ros2_ws/src/follow_the_gap_bridge/follow_the_gap_bridge', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/projects/ros2_ws/install:/home/projects/rosboard_ws/install:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install:/home/projects/sensor2_ws/src/vesc/install:/home/projects/sensor2_ws/src/imu/artemis_openlog/install:/home/projects/sensor2_ws/src/cameras/oakd/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'ROS1_DISTRO': 'noetic', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_DISTRO': 'foxy', 'ROS_DOMAIN_ID': '96', 'AMENT_PREFIX_PATH': '/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_basics2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/ros2_ws/install/follow_the_gap_bridge:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/home/projects/sensor2_ws/src/vesc/install/vesc:/home/projects/sensor2_ws/src/vesc/install/vesc_driver:/home/projects/sensor2_ws/src/vesc/install/vesc_ackermann:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs:/home/projects/sensor2_ws/src/vesc/install/teleop_tools:/home/projects/sensor2_ws/src/vesc/install/joy_teleop:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop:/home/projects/sensor2_ws/src/vesc/install/key_teleop:/home/projects/sensor2_ws/src/vesc/install/ackermann_mux:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy', 'PWD': '/home/projects/ros2_ws/build/follow_the_gap_bridge', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/projects/ros2_ws/install/follow_the_gap_bridge/lib/python3.8/site-packages:/home/projects/ros2_ws/build/follow_the_gap_bridge:/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_basics2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/follow_the_gap_bridge/lib/python3.8/site-packages:/home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/joy_teleop/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/home/projects/sensor2_ws/src/vesc/install/vesc:/home/projects/sensor2_ws/src/vesc/install/vesc_driver:/home/projects/sensor2_ws/src/vesc/install/vesc_ackermann:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs:/home/projects/sensor2_ws/src/vesc/install/teleop_tools:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs:/home/projects/sensor2_ws/src/vesc/install/ackermann_mux'}, 'shell': False}
+[4.370653] (-) TimerEvent: {}
+[4.472672] (-) TimerEvent: {}
+[4.574858] (-) TimerEvent: {}
+[4.675747] (-) TimerEvent: {}
+[4.776663] (-) TimerEvent: {}
+[4.877553] (-) TimerEvent: {}
+[4.978559] (-) TimerEvent: {}
+[5.079477] (-) TimerEvent: {}
+[5.180630] (-) TimerEvent: {}
+[5.281705] (-) TimerEvent: {}
+[5.382686] (-) TimerEvent: {}
+[5.483558] (-) TimerEvent: {}
+[5.584399] (-) TimerEvent: {}
+[5.685264] (-) TimerEvent: {}
+[5.786249] (-) TimerEvent: {}
+[5.877372] (follow_the_gap_bridge) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.879584] (follow_the_gap_bridge) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.880139] (follow_the_gap_bridge) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[5.880643] (follow_the_gap_bridge) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.886378] (-) TimerEvent: {}
+[5.987020] (-) TimerEvent: {}
+[6.087883] (-) TimerEvent: {}
+[6.097137] (follow_the_gap_bridge) StdoutLine: {'line': b'running develop\n'}
+[6.188046] (-) TimerEvent: {}
+[6.288897] (-) TimerEvent: {}
+[6.389789] (-) TimerEvent: {}
+[6.490712] (-) TimerEvent: {}
+[6.591535] (-) TimerEvent: {}
+[6.693291] (-) TimerEvent: {}
+[6.794184] (-) TimerEvent: {}
+[6.895030] (-) TimerEvent: {}
+[6.995873] (-) TimerEvent: {}
+[7.068867] (follow_the_gap_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[7.069857] (follow_the_gap_bridge) StdoutLine: {'line': b'writing follow_the_gap_bridge.egg-info/PKG-INFO\n'}
+[7.070847] (follow_the_gap_bridge) StdoutLine: {'line': b'writing dependency_links to follow_the_gap_bridge.egg-info/dependency_links.txt\n'}
+[7.071856] (follow_the_gap_bridge) StdoutLine: {'line': b'writing entry points to follow_the_gap_bridge.egg-info/entry_points.txt\n'}
+[7.072531] (follow_the_gap_bridge) StdoutLine: {'line': b'writing requirements to follow_the_gap_bridge.egg-info/requires.txt\n'}
+[7.073150] (follow_the_gap_bridge) StdoutLine: {'line': b'writing top-level names to follow_the_gap_bridge.egg-info/top_level.txt\n'}
+[7.086725] (follow_the_gap_bridge) StdoutLine: {'line': b"reading manifest file 'follow_the_gap_bridge.egg-info/SOURCES.txt'\n"}
+[7.091215] (follow_the_gap_bridge) StdoutLine: {'line': b"writing manifest file 'follow_the_gap_bridge.egg-info/SOURCES.txt'\n"}
+[7.096026] (-) TimerEvent: {}
+[7.196818] (-) TimerEvent: {}
+[7.285864] (follow_the_gap_bridge) StdoutLine: {'line': b'running build_ext\n'}
+[7.286883] (follow_the_gap_bridge) StdoutLine: {'line': b'Creating /home/projects/ros2_ws/install/follow_the_gap_bridge/lib/python3.8/site-packages/follow-the-gap-bridge.egg-link (link to .)\n'}
+[7.290621] (follow_the_gap_bridge) StdoutLine: {'line': b'Installing follow_the_gap_bridge script to /home/projects/ros2_ws/install/follow_the_gap_bridge/lib/follow_the_gap_bridge\n'}
+[7.292376] (follow_the_gap_bridge) StdoutLine: {'line': b'\n'}
+[7.292938] (follow_the_gap_bridge) StdoutLine: {'line': b'Installed /home/projects/ros2_ws/build/follow_the_gap_bridge\n'}
+[7.293398] (follow_the_gap_bridge) StdoutLine: {'line': b'running install_data\n'}
+[7.296937] (-) TimerEvent: {}
+[7.397717] (-) TimerEvent: {}
+[7.413014] (follow_the_gap_bridge) CommandEnded: {'returncode': 0}
+[7.498817] (-) TimerEvent: {}
+[7.503406] (follow_the_gap_bridge) JobEnded: {'identifier': 'follow_the_gap_bridge', 'rc': 0}
+[7.507895] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+/home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor/livox-sdk_install/lib/liblivox_sdk_static.a
+/home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor/livox-sdk_install/include/livox_def.h
+/home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor/livox-sdk_install/include/livox_sdk.h

@@ -1,0 +1,67 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_msgs/msg/CfgGNSSBlock.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_msgs {
+  module msg {
+    module CfgGNSSBlock_Constants {
+      const uint8 GNSS_ID_GPS = 0;
+      const uint8 GNSS_ID_SBAS = 1;
+      const uint8 GNSS_ID_GALILEO = 2;
+      const uint8 GNSS_ID_BEIDOU = 3;
+      const uint8 GNSS_ID_IMES = 4;
+      const uint8 GNSS_ID_QZSS = 5;
+      const uint8 GNSS_ID_GLONASS = 6;
+      const uint8 RES_TRK_CH_GPS = 8;
+      const uint8 RES_TRK_CH_QZSS = 0;
+      const uint8 RES_TRK_CH_SBAS = 0;
+      const uint8 RES_TRK_CH_GLONASS = 8;
+      const uint8 MAX_TRK_CH_MAJOR_MIN = 4;
+      const uint8 MAX_TRK_CH_GPS = 16;
+      const uint8 MAX_TRK_CH_GLONASS = 14;
+      const uint8 MAX_TRK_CH_QZSS = 3;
+      const uint8 MAX_TRK_CH_SBAS = 3;
+      const uint32 FLAGS_ENABLE = 1;
+      const uint32 FLAGS_SIG_CFG_MASK = 16711680;
+      const uint32 SIG_CFG_GPS_L1CA = 65536;
+      const uint32 SIG_CFG_SBAS_L1CA = 65536;
+      const uint32 SIG_CFG_GALILEO_E1OS = 65536;
+      const uint32 SIG_CFG_BEIDOU_B1I = 65536;
+      const uint32 SIG_CFG_IMES_L1 = 65536;
+      const uint32 SIG_CFG_QZSS_L1CA = 65536;
+      const uint32 SIG_CFG_QZSS_L1SAIF = 262144;
+      const uint32 SIG_CFG_GLONASS_L1OF = 65536;
+    };
+    @verbatim (language="comment", text=
+      " see Cfg-GNSS message")
+    struct CfgGNSSBlock {
+      @verbatim (language="comment", text=
+        " System identifier (see Satellite Numbering)")
+      uint8 gnss_id;
+
+      @verbatim (language="comment", text=
+        " (Read only in protocol versions greater than 23)" "\n"
+        " Number of reserved (minimum) tracking channels" "\n"
+        " for this GNSS system")
+      uint8 res_trk_ch;
+
+      @verbatim (language="comment", text=
+        " (Read only in protocol versions greater than 23)" "\n"
+        " Maximum number of tracking channels used for this" "\n"
+        " system. Must be > 0, >= resTrkChn, <= numTrkChUse and" "\n"
+        " <= maximum number of tracking channels supported for" "\n"
+        " this system")
+      uint8 max_trk_ch;
+
+      @verbatim (language="comment", text=
+        " Reserved")
+      uint8 reserved1;
+
+      @verbatim (language="comment", text=
+        " Bitfield of flags. At least one signal must be" "\n"
+        " configured in every enabled system.")
+      uint32 flags;
+    };
+  };
+};

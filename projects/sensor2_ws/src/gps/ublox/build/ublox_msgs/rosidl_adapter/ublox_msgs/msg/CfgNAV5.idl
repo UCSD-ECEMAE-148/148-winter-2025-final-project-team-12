@@ -1,0 +1,140 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_msgs/msg/CfgNAV5.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_msgs {
+  module msg {
+    typedef uint8 uint8__2[2];
+    typedef uint8 uint8__5[5];
+    module CfgNAV5_Constants {
+      const uint8 CLASS_ID = 6;
+      const uint8 MESSAGE_ID = 36;
+      const uint16 MASK_DYN = 1;
+      const uint16 MASK_MIN_EL = 2;
+      const uint16 MASK_FIX_MODE = 4;
+      const uint16 MASK_DR_LIM = 8;
+      const uint16 MASK_POS_MASK = 16;
+      const uint16 MASK_TIME_MASK = 32;
+      const uint16 MASK_STATIC_HOLD_MASK = 64;
+      const uint16 MASK_DGPS_MASK = 128;
+      const uint16 MASK_CNO = 256;
+      const uint16 MASK_UTC = 1024;
+      const uint8 DYN_MODEL_PORTABLE = 0;
+      const uint8 DYN_MODEL_STATIONARY = 2;
+      const uint8 DYN_MODEL_PEDESTRIAN = 3;
+      const uint8 DYN_MODEL_AUTOMOTIVE = 4;
+      const uint8 DYN_MODEL_SEA = 5;
+      const uint8 DYN_MODEL_AIRBORNE_1G = 6;
+      const uint8 DYN_MODEL_AIRBORNE_2G = 7;
+      const uint8 DYN_MODEL_AIRBORNE_4G = 8;
+      const uint8 DYN_MODEL_WRIST_WATCH = 9;
+      const uint8 FIX_MODE_2D_ONLY = 1;
+      const uint8 FIX_MODE_3D_ONLY = 2;
+      const uint8 FIX_MODE_AUTO = 3;
+      const uint8 UTC_STANDARD_AUTOMATIC = 0;
+      const uint8 UTC_STANDARD_GPS = 3;
+      const uint8 UTC_STANDARD_GLONASS = 6;
+      const uint8 UTC_STANDARD_BEIDOU = 7;
+    };
+    @verbatim (language="comment", text=
+      " CFG-NAV5 (0x06 0x24)" "\n"
+      " Navigation Engine Settings")
+    struct CfgNAV5 {
+      @verbatim (language="comment", text=
+        " Parameters Bitmask. Only the masked" "\n"
+        " parameters will be applied.")
+      uint16 mask;
+
+      @verbatim (language="comment", text=
+        " Dynamic Platform model:")
+      uint8 dyn_model;
+
+      @verbatim (language="comment", text=
+        " Position Fixing Mode.")
+      uint8 fix_mode;
+
+      @verbatim (language="comment", text=
+        " Fixed altitude (mean sea level) for 2D fix mode." "\n"
+        " [m / 0.01]")
+      @unit (value="m / 0.01")
+      int32 fixed_alt;
+
+      @verbatim (language="comment", text=
+        " Fixed altitude variance for 2D mode.")
+      @unit (value="m^2 / 0.0001")
+      uint32 fixed_alt_var;
+
+      @verbatim (language="comment", text=
+        " Minimum Elevation for a GNSS satellite to be used in" "\n"
+        " NAV")
+      @unit (value="deg")
+      int8 min_elev;
+
+      @verbatim (language="comment", text=
+        " Maximum time to perform dead reckoning" "\n"
+        " (linear extrapolation) in case of GPS signal loss")
+      @unit (value="s")
+      uint8 dr_limit;
+
+      @verbatim (language="comment", text=
+        " Position DOP Mask to use")
+      @unit (value="1 / 0.1")
+      uint16 p_dop;
+
+      @verbatim (language="comment", text=
+        " Time DOP Mask to use")
+      @unit (value="1 / 0.1")
+      uint16 t_dop;
+
+      @verbatim (language="comment", text=
+        " Position Accuracy Mask")
+      @unit (value="m")
+      uint16 p_acc;
+
+      @verbatim (language="comment", text=
+        " Time Accuracy Mask")
+      @unit (value="m")
+      uint16 t_acc;
+
+      @verbatim (language="comment", text=
+        " Static hold threshold")
+      @unit (value="cm/s")
+      uint8 static_hold_thresh;
+
+      @verbatim (language="comment", text=
+        " DGNSS timeout, firmware 7 and newer only")
+      @unit (value="s")
+      uint8 dgnss_time_out;
+
+      @verbatim (language="comment", text=
+        " Number of satellites required to have C/N0 above" "\n"
+        " cnoThresh for a fix to be attempted")
+      uint8 cno_thresh_num_svs;
+
+      @verbatim (language="comment", text=
+        " C/N0 threshold for deciding whether to attempt a fix" "\n"
+        " [dBHz]")
+      @unit (value="dBHz")
+      uint8 cno_thresh;
+
+      @verbatim (language="comment", text=
+        " Reserved")
+      uint8__2 reserved1;
+
+      @verbatim (language="comment", text=
+        " Static hold distance threshold (before quitting" "\n"
+        " static hold)")
+      @unit (value="m")
+      uint16 static_hold_max_dist;
+
+      @verbatim (language="comment", text=
+        " UTC standard to be used:")
+      uint8 utc_standard;
+
+      @verbatim (language="comment", text=
+        " Reserved")
+      uint8__5 reserved2;
+    };
+  };
+};

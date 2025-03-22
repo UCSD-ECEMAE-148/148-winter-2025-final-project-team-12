@@ -1,0 +1,46 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_msgs/msg/UpdSOSAck.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_msgs {
+  module msg {
+    typedef uint8 uint8__3[3];
+    module UpdSOSAck_Constants {
+      const uint8 CLASS_ID = 9;
+      const uint8 MESSAGE_ID = 20;
+      const uint8 CMD_BACKUP_CREATE_ACK = 2;
+      const uint8 CMD_SYSTEM_RESTORED = 3;
+      const uint8 BACKUP_CREATE_NACK = 0;
+      const uint8 BACKUP_CREATE_ACK = 1;
+      const uint8 SYSTEM_RESTORED_RESPONSE_UNKNOWN = 0;
+      const uint8 SYSTEM_RESTORED_RESPONSE_FAILED = 1;
+      const uint8 SYSTEM_RESTORED_RESPONSE_RESTORED = 2;
+      const uint8 SYSTEM_RESTORED_RESPONSE_NOT_RESTORED = 3;
+    };
+    @verbatim (language="comment", text=
+      " UPD-SOS (0x09 0x14)" "\n"
+      "" "\n"
+      " Backup File Creation Acknowledge / System Restored from Backup" "\n"
+      "" "\n"
+      " Firmware Supported on:" "\n"
+      " u-blox 8 / u-blox M8 from protocol version 15 up to version 23.01")
+    struct UpdSOSAck {
+      @verbatim (language="comment", text=
+        " Command")
+      uint8 cmd;
+
+      @verbatim (language="comment", text=
+        " Reserved")
+      uint8__3 reserved0;
+
+      @verbatim (language="comment", text=
+        " Response:")
+      uint8 response;
+
+      @verbatim (language="comment", text=
+        " Reserved")
+      uint8__3 reserved1;
+    };
+  };
+};

@@ -1,0 +1,244 @@
+[0.032s] Invoking command in '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver
+[0.196s] -- The C compiler identification is GNU 9.3.0
+[0.342s] -- The CXX compiler identification is GNU 9.3.0
+[0.354s] -- Check for working C compiler: /usr/bin/cc
+[0.530s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.532s] -- Detecting C compiler ABI info
+[0.717s] -- Detecting C compiler ABI info - done
+[0.759s] -- Detecting C compile features
+[0.762s] -- Detecting C compile features - done
+[0.770s] -- Check for working CXX compiler: /usr/bin/c++
+[0.967s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.970s] -- Detecting CXX compiler ABI info
+[1.176s] -- Detecting CXX compiler ABI info - done
+[1.215s] -- Detecting CXX compile features
+[1.216s] -- Detecting CXX compile features - done
+[1.219s] -- livox_ros2_driver version: 0.0.1
+[1.223s] -- Found ament_cmake_auto: 0.9.8 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.298s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.298s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.065s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.082s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.305s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.377s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.747s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.751s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.753s] -- Looking for pthread.h
+[2.954s] -- Looking for pthread.h - found
+[2.957s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.164s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.166s] -- Looking for pthread_create in pthreads
+[3.324s] -- Looking for pthread_create in pthreads - not found
+[3.325s] -- Looking for pthread_create in pthread
+[3.519s] -- Looking for pthread_create in pthread - found
+[3.519s] -- Found Threads: TRUE  
+[4.955s] -- Checking for module 'eigen3'
+[4.991s] --   Found eigen3, version 3.3.7
+[5.100s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.100s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[5.215s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[5.262s] -- Checking for module 'flann'
+[5.306s] --   Found flann, version 1.9.1
+[5.437s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[5.626s] -- The imported target "vtkParseOGLExt" references the file
+[5.627s]    "/usr/bin/vtkParseOGLExt-7.1"
+[5.627s] but this file does not exist.  Possible reasons include:
+[5.628s] * The file was deleted, renamed, or moved to another location.
+[5.629s] * An install or uninstall procedure did not complete successfully.
+[5.629s] * The installation package was faulty and contained
+[5.630s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.630s] but not all the files it references.
+[5.630s] 
+[5.631s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[5.632s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[5.632s] but this file does not exist.  Possible reasons include:
+[5.632s] * The file was deleted, renamed, or moved to another location.
+[5.632s] * An install or uninstall procedure did not complete successfully.
+[5.633s] * The installation package was faulty and contained
+[5.633s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.634s] but not all the files it references.
+[5.635s] 
+[5.635s] -- The imported target "vtk" references the file
+[5.635s]    "/usr/bin/vtk"
+[5.635s] but this file does not exist.  Possible reasons include:
+[5.636s] * The file was deleted, renamed, or moved to another location.
+[5.636s] * An install or uninstall procedure did not complete successfully.
+[5.636s] * The installation package was faulty and contained
+[5.636s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.636s] but not all the files it references.
+[5.637s] 
+[5.637s] -- The imported target "pvtk" references the file
+[5.637s]    "/usr/bin/pvtk"
+[5.637s] but this file does not exist.  Possible reasons include:
+[5.638s] * The file was deleted, renamed, or moved to another location.
+[5.638s] * An install or uninstall procedure did not complete successfully.
+[5.638s] * The installation package was faulty and contained
+[5.638s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.639s] but not all the files it references.
+[5.639s] 
+[5.696s] -- Checking for module 'libusb-1.0'
+[5.704s] --   No package 'libusb-1.0' found
+[5.712s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.712s] -- OpenNI disabled because libusb-1.0 not found.
+[5.712s] ** WARNING ** io features related to openni will be disabled
+[5.725s] -- Checking for module 'libusb-1.0'
+[5.733s] --   No package 'libusb-1.0' found
+[5.745s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.745s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[5.745s] ** WARNING ** io features related to openni2 will be disabled
+[5.745s] ** WARNING ** io features related to pcap will be disabled
+[5.746s] ** WARNING ** io features related to png will be disabled
+[5.796s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[5.796s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[5.807s] -- Checking for module 'libusb-1.0'
+[5.815s] --   No package 'libusb-1.0' found
+[5.822s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.822s] -- OpenNI disabled because libusb-1.0 not found.
+[5.823s] ** WARNING ** visualization features related to openni will be disabled
+[5.835s] -- Checking for module 'libusb-1.0'
+[5.843s] --   No package 'libusb-1.0' found
+[5.850s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.851s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[5.851s] ** WARNING ** visualization features related to openni2 will be disabled
+[5.924s] -- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  
+[5.924s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[5.936s] -- Checking for module 'libusb-1.0'
+[5.943s] --   No package 'libusb-1.0' found
+[5.951s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[5.951s] -- OpenNI disabled because libusb-1.0 not found.
+[5.951s] ** WARNING ** apps features related to openni will be disabled
+[5.990s] -- looking for PCL_COMMON
+[5.993s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[5.994s] -- looking for PCL_KDTREE
+[5.996s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[5.997s] -- looking for PCL_OCTREE
+[5.999s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[6.000s] -- looking for PCL_SEARCH
+[6.002s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[6.003s] -- looking for PCL_SAMPLE_CONSENSUS
+[6.006s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[6.006s] -- looking for PCL_FILTERS
+[6.009s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[6.009s] -- looking for PCL_2D
+[6.010s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[6.012s] -- looking for PCL_GEOMETRY
+[6.013s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[6.014s] -- looking for PCL_IO
+[6.017s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[6.018s] -- looking for PCL_FEATURES
+[6.020s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[6.021s] -- looking for PCL_ML
+[6.023s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[6.024s] -- looking for PCL_SEGMENTATION
+[6.026s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[6.028s] -- looking for PCL_VISUALIZATION
+[6.030s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[6.031s] -- looking for PCL_SURFACE
+[6.034s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[6.034s] -- looking for PCL_REGISTRATION
+[6.037s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[6.038s] -- looking for PCL_KEYPOINTS
+[6.040s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[6.041s] -- looking for PCL_TRACKING
+[6.044s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[6.045s] -- looking for PCL_RECOGNITION
+[6.047s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[6.049s] -- looking for PCL_STEREO
+[6.051s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[6.052s] -- looking for PCL_APPS
+[6.054s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[6.057s] -- looking for PCL_IN_HAND_SCANNER
+[6.058s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[6.058s] -- looking for PCL_POINT_CLOUD_EDITOR
+[6.060s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[6.060s] -- looking for PCL_OUTOFCORE
+[6.063s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[6.064s] -- looking for PCL_PEOPLE
+[6.066s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[6.071s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/aarch64-linux-gnu/libboost_system.so;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so;optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/aarch64-linux-gnu/libfreetype.so;/usr/lib/aarch64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/aarch64-linux-gnu/libjpeg.so;/usr/lib/aarch64-linux-gnu/libpng.so;/usr/lib/aarch64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/aarch64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[6.074s] -- Found livox_sdk: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/include  
+[6.083s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[6.086s] -- Checking for module 'apr-1'
+[6.125s] --   Found apr-1, version 1.6.5
+[6.251s] /usr/include/apr-1.0
+[6.252s] apr-1
+[6.353s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.405s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.416s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.418s] -- Configured cppcheck include dirs: /home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/common;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/common/rapidjson;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/comon/rapdidxml;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/common/comm;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/timesync;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/timesync/user_uart;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver
+[6.418s] -- Configured cppcheck exclude dirs and/or files: 
+[6.428s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.428s] -- Configured cpplint exclude dirs and/or files: 
+[6.430s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.434s] -- Added test 'lint_cmake' to check CMake code style
+[6.436s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.446s] -- Added test 'uncrustify' to check C / C++ code style
+[6.446s] -- Configured uncrustify additional arguments: 
+[6.448s] -- Added test 'xmllint' to check XML markup files
+[6.460s] -- Configuring done
+[6.620s] -- Generating done
+[6.627s] -- Build files have been written to: /home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver
+[6.657s] Invoked command in '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver
+[6.663s] Invoking command in '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver -- -j8 -l8
+[6.836s] Scanning dependencies of target livox_ros2_driver_node
+[6.873s] [  6%] Building CXX object CMakeFiles/livox_ros2_driver_node.dir/rclcpp_components/node_main_livox_ros2_driver_node.cpp.o
+[7.042s] Scanning dependencies of target livox_ros2_driver
+[7.084s] [ 18%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/ldq.cpp.o
+[7.085s] [ 25%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lvx_file.cpp.o
+[7.086s] [ 25%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds.cpp.o
+[7.087s] [ 31%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_lvx.cpp.o
+[7.089s] [ 37%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_hub.cpp.o
+[7.090s] [ 43%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_lidar.cpp.o
+[7.122s] [ 50%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lddc.cpp.o
+[7.243s] [ 56%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/livox_ros2_driver.cpp.o
+[8.626s] [ 62%] Building CXX object CMakeFiles/livox_ros2_driver.dir/timesync/timesync.cpp.o
+[9.339s] [ 68%] Building CXX object CMakeFiles/livox_ros2_driver.dir/timesync/user_uart/user_uart.cpp.o
+[9.430s] [ 75%] Building CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/comm_protocol.cpp.o
+[9.512s] [ 81%] Building CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/sdk_protocol.cpp.o
+[9.668s] [ 87%] Building CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/gps_protocol.cpp.o
+[13.262s] [ 93%] Linking CXX executable livox_ros2_driver_node
+[13.551s] [ 93%] Built target livox_ros2_driver_node
+[28.529s] [100%] Linking CXX shared library liblivox_ros2_driver.so
+[30.902s] [100%] Built target livox_ros2_driver
+[30.929s] Invoked command in '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver -- -j8 -l8
+[31.167s] Invoking command in '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver
+[31.201s] -- Install configuration: ""
+[31.201s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node
+[31.203s] -- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node" to ""
+[31.203s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.sh
+[31.204s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.dsv
+[31.205s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/lib/liblivox_ros2_driver.so
+[31.229s] -- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/lib/liblivox_ros2_driver.so" to ""
+[31.229s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/config
+[31.229s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub_config.json
+[31.230s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar_config.json
+[31.230s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar.rviz
+[31.231s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub.rviz
+[31.231s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch
+[31.231s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_template_launch.py
+[31.232s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_rviz_launch.py
+[31.232s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_launch.py
+[31.232s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_launch.py
+[31.232s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_msg_launch .py
+[31.233s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_msg_launch.py
+[31.233s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_rviz_launch.py
+[31.233s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/ament_index/resource_index/package_run_dependencies/livox_ros2_driver
+[31.234s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/ament_index/resource_index/parent_prefix_path/livox_ros2_driver
+[31.234s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.sh
+[31.235s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.dsv
+[31.235s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.sh
+[31.236s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.dsv
+[31.237s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.bash
+[31.237s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.sh
+[31.239s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.zsh
+[31.240s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.dsv
+[31.240s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv
+[31.240s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/ament_index/resource_index/packages/livox_ros2_driver
+[31.240s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/ament_index/resource_index/rclcpp_components/livox_ros2_driver
+[31.241s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.241s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[31.241s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig.cmake
+[31.241s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig-version.cmake
+[31.242s] -- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/package.xml
+[31.249s] Invoked command in '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver

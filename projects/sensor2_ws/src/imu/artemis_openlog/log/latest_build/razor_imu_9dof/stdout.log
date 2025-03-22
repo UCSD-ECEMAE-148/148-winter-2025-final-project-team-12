@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/razor_imu_9dof/razor_imu_9dof.egg-info
+writing ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/PKG-INFO
+writing dependency_links to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/dependency_links.txt
+writing entry points to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/entry_points.txt
+writing requirements to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/requires.txt
+writing top-level names to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/top_level.txt
+writing manifest file '../../build/razor_imu_9dof/razor_imu_9dof.egg-info/SOURCES.txt'
+reading manifest file '../../build/razor_imu_9dof/razor_imu_9dof.egg-info/SOURCES.txt'
+writing manifest file '../../build/razor_imu_9dof/razor_imu_9dof.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build
+creating /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib
+creating /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof
+copying razor_imu_9dof/imu_node.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof
+copying razor_imu_9dof/__init__.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof
+running install
+running install_lib
+creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof
+copying /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof/imu_node.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof
+copying /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof/__init__.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof
+byte-compiling /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof/imu_node.py to imu_node.cpython-38.pyc
+byte-compiling /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index
+creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index/resource_index
+creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index/resource_index/packages
+copying resource/razor_imu_9dof -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index/resource_index/packages
+copying package.xml -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof
+creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/launch
+copying launch/razor-pub.launch.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/launch
+creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/param
+copying param/razor_diags.yaml -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/param
+copying param/razor.yaml -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/param
+running install_egg_info
+Copying ../../build/razor_imu_9dof/razor_imu_9dof.egg-info to /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof-0.0.0-py3.8.egg-info
+running install_scripts
+Installing imu_node script to /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/razor_imu_9dof
+writing list of installed files to '/home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/install.log'

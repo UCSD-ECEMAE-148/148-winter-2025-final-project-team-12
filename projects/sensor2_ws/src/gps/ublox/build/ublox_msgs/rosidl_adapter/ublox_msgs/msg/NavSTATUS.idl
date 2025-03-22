@@ -1,0 +1,79 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ublox_msgs/msg/NavSTATUS.msg
+// generated code does not contain a copyright notice
+
+
+module ublox_msgs {
+  module msg {
+    module NavSTATUS_Constants {
+      const uint8 CLASS_ID = 1;
+      const uint8 MESSAGE_ID = 3;
+      const uint8 GPS_NO_FIX = 0;
+      const uint8 GPS_DEAD_RECKONING_ONLY = 1;
+      const uint8 GPS_2D_FIX = 2;
+      const uint8 GPS_3D_FIX = 3;
+      const uint8 GPS_GPS_DEAD_RECKONING_COMBINED = 4;
+      const uint8 GPS_TIME_ONLY_FIX = 5;
+      const uint8 FLAGS_GPS_FIX_OK = 1;
+      const uint8 FLAGS_DIFF_SOLN = 2;
+      const uint8 FLAGS_WKNSET = 4;
+      const uint8 FLAGS_TOWSET = 8;
+      const uint8 FIX_STAT_DIFF_CORR_MASK = 1;
+      const uint8 FIX_STAT_MAP_MATCHING_MASK = 192;
+      const uint8 MAP_MATCHING_NONE = 0;
+      const uint8 MAP_MATCHING_VALID = 64;
+      const uint8 MAP_MATCHING_USED = 128;
+      const uint8 MAP_MATCHING_DR = 192;
+      const uint8 FLAGS2_PSM_STATE_MASK = 3;
+      const uint8 PSM_STATE_ACQUISITION = 0;
+      const uint8 PSM_STATE_TRACKING = 1;
+      const uint8 PSM_STATE_POWER_OPTIMIZED_TRACKING = 2;
+      const uint8 PSM_STATE_INACTIVE = 3;
+      const uint8 FLAGS2_SPOOF_DET_STATE_MASK = 24;
+      const uint8 SPOOF_DET_STATE_UNKNOWN = 0;
+      const uint8 SPOOF_DET_STATE_NONE = 8;
+      const uint8 SPOOF_DET_STATE_SPOOFING = 16;
+      const uint8 SPOOF_DET_STATE_MULTIPLE = 24;
+    };
+    @verbatim (language="comment", text=
+      " NAV-STATUS (0x01 0x03)" "\n"
+      " Receiver Navigation Status" "\n"
+      "" "\n"
+      " See important comments concerning validity of position and velocity given in" "\n"
+      " section Navigation Output Filters.")
+    struct NavSTATUS {
+      @verbatim (language="comment", text=
+        " GPS Millisecond time of week")
+      @unit (value="ms")
+      uint32 i_tow;
+
+      @verbatim (language="comment", text=
+        " GPSfix Type, this value does not qualify a fix as" "\n"
+        " valid and within the limits. See note on flag gpsFixOk" "\n"
+        " below")
+      uint8 gps_fix;
+
+      @verbatim (language="comment", text=
+        " Navigation Status Flags")
+      uint8 flags;
+
+      @verbatim (language="comment", text=
+        " Fix Status Information")
+      uint8 fix_stat;
+
+      @verbatim (language="comment", text=
+        " further information about navigation output")
+      uint8 flags2;
+
+      @verbatim (language="comment", text=
+        " Time to first fix (millisecond time tag)")
+      @unit (value="ms")
+      uint32 ttff;
+
+      @verbatim (language="comment", text=
+        " Milliseconds since Startup / Reset")
+      @unit (value="ms")
+      uint32 msss;
+    };
+  };
+};

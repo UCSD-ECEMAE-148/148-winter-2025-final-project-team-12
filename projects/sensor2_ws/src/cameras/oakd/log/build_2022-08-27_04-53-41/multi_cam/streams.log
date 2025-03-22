@@ -1,0 +1,41 @@
+[3.070s] Invoking command in '/home/projects/sensor2_ws/src/cameras/oakd/src/multi_cam_oak_lite': PYTHONPATH=/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/multi_cam build --build-base /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build install --prefix /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam --record /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/install.log --single-version-externally-managed
+[4.108s] running egg_info
+[4.110s] creating ../../build/multi_cam/multi_cam.egg-info
+[4.111s] writing ../../build/multi_cam/multi_cam.egg-info/PKG-INFO
+[4.112s] writing dependency_links to ../../build/multi_cam/multi_cam.egg-info/dependency_links.txt
+[4.112s] writing entry points to ../../build/multi_cam/multi_cam.egg-info/entry_points.txt
+[4.113s] writing requirements to ../../build/multi_cam/multi_cam.egg-info/requires.txt
+[4.114s] writing top-level names to ../../build/multi_cam/multi_cam.egg-info/top_level.txt
+[4.119s] writing manifest file '../../build/multi_cam/multi_cam.egg-info/SOURCES.txt'
+[4.271s] reading manifest file '../../build/multi_cam/multi_cam.egg-info/SOURCES.txt'
+[4.274s] writing manifest file '../../build/multi_cam/multi_cam.egg-info/SOURCES.txt'
+[4.274s] running build
+[4.275s] running build_py
+[4.275s] creating /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build
+[4.276s] creating /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib
+[4.276s] creating /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam
+[4.277s] copying multi_cam/cam_subscriber_node.py -> /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam
+[4.277s] copying multi_cam/__init__.py -> /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam
+[4.278s] copying multi_cam/multi_cam_node.py -> /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam
+[4.278s] running install
+[4.281s] running install_lib
+[4.286s] creating /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam
+[4.286s] copying /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam/cam_subscriber_node.py -> /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam
+[4.287s] copying /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam/__init__.py -> /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam
+[4.288s] copying /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam/multi_cam_node.py -> /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam
+[4.290s] byte-compiling /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam/cam_subscriber_node.py to cam_subscriber_node.cpython-38.pyc
+[4.297s] byte-compiling /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam/__init__.py to __init__.cpython-38.pyc
+[4.298s] byte-compiling /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam/multi_cam_node.py to multi_cam_node.cpython-38.pyc
+[4.302s] running install_data
+[4.305s] creating /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/share/ament_index
+[4.305s] creating /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/share/ament_index/resource_index
+[4.306s] creating /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/share/ament_index/resource_index/packages
+[4.306s] copying resource/multi_cam -> /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/share/ament_index/resource_index/packages
+[4.307s] copying package.xml -> /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/share/multi_cam
+[4.307s] running install_egg_info
+[4.312s] Copying ../../build/multi_cam/multi_cam.egg-info to /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam-0.0.0-py3.8.egg-info
+[4.316s] running install_scripts
+[4.388s] Installing oakd_publisher script to /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/multi_cam/
+[4.388s] Installing oakd_subscriber script to /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/multi_cam/
+[4.389s] writing list of installed files to '/home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/install.log'
+[4.471s] Invoked command in '/home/projects/sensor2_ws/src/cameras/oakd/src/multi_cam_oak_lite' returned '0': PYTHONPATH=/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/multi_cam build --build-base /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build install --prefix /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam --record /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+/home/projects/sensor_ws/src/lidars/ld06/src/ldlidar/src/lipkg.cpp: In member function ‘void LiPkg::ToLaserscan(std::vector<PointData>)’:
+/home/projects/sensor_ws/src/lidars/ld06/src/ldlidar/src/lipkg.cpp:258:29: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+  258 |     if (index >= 0 && index < beam_size_)
+      |                       ~~~~~~^~~~~~~~~~~~

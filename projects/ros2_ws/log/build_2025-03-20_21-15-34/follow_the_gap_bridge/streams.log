@@ -1,0 +1,41 @@
+[14.751s] Invoking command in '/home/projects/ros2_ws/src/follow_the_gap_bridge': PYTHONPATH=/home/projects/ros2_ws/install/follow_the_gap_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_the_gap_bridge build --build-base /home/projects/ros2_ws/build/follow_the_gap_bridge/build install --prefix /home/projects/ros2_ws/install/follow_the_gap_bridge --record /home/projects/ros2_ws/build/follow_the_gap_bridge/install.log --single-version-externally-managed
+[16.947s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[16.948s]   warnings.warn(
+[16.958s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[16.960s]   warnings.warn(
+[17.204s] running egg_info
+[17.207s] creating ../../build/follow_the_gap_bridge/follow_the_gap_bridge.egg-info
+[17.209s] writing ../../build/follow_the_gap_bridge/follow_the_gap_bridge.egg-info/PKG-INFO
+[17.211s] writing dependency_links to ../../build/follow_the_gap_bridge/follow_the_gap_bridge.egg-info/dependency_links.txt
+[17.212s] writing entry points to ../../build/follow_the_gap_bridge/follow_the_gap_bridge.egg-info/entry_points.txt
+[17.213s] writing requirements to ../../build/follow_the_gap_bridge/follow_the_gap_bridge.egg-info/requires.txt
+[17.214s] writing top-level names to ../../build/follow_the_gap_bridge/follow_the_gap_bridge.egg-info/top_level.txt
+[17.221s] writing manifest file '../../build/follow_the_gap_bridge/follow_the_gap_bridge.egg-info/SOURCES.txt'
+[17.231s] reading manifest file '../../build/follow_the_gap_bridge/follow_the_gap_bridge.egg-info/SOURCES.txt'
+[17.236s] writing manifest file '../../build/follow_the_gap_bridge/follow_the_gap_bridge.egg-info/SOURCES.txt'
+[17.237s] running build
+[17.238s] running build_py
+[17.239s] creating /home/projects/ros2_ws/build/follow_the_gap_bridge/build
+[17.239s] creating /home/projects/ros2_ws/build/follow_the_gap_bridge/build/lib
+[17.240s] creating /home/projects/ros2_ws/build/follow_the_gap_bridge/build/lib/follow_the_gap_bridge
+[17.243s] copying follow_the_gap_bridge/follow_the_gap_bridge.py -> /home/projects/ros2_ws/build/follow_the_gap_bridge/build/lib/follow_the_gap_bridge
+[17.245s] copying follow_the_gap_bridge/__init__.py -> /home/projects/ros2_ws/build/follow_the_gap_bridge/build/lib/follow_the_gap_bridge
+[17.246s] running install
+[17.251s] running install_lib
+[17.257s] creating /home/projects/ros2_ws/install/follow_the_gap_bridge/lib/python3.8/site-packages/follow_the_gap_bridge
+[17.259s] copying /home/projects/ros2_ws/build/follow_the_gap_bridge/build/lib/follow_the_gap_bridge/follow_the_gap_bridge.py -> /home/projects/ros2_ws/install/follow_the_gap_bridge/lib/python3.8/site-packages/follow_the_gap_bridge
+[17.260s] copying /home/projects/ros2_ws/build/follow_the_gap_bridge/build/lib/follow_the_gap_bridge/__init__.py -> /home/projects/ros2_ws/install/follow_the_gap_bridge/lib/python3.8/site-packages/follow_the_gap_bridge
+[17.263s] byte-compiling /home/projects/ros2_ws/install/follow_the_gap_bridge/lib/python3.8/site-packages/follow_the_gap_bridge/follow_the_gap_bridge.py to follow_the_gap_bridge.cpython-38.pyc
+[17.269s] byte-compiling /home/projects/ros2_ws/install/follow_the_gap_bridge/lib/python3.8/site-packages/follow_the_gap_bridge/__init__.py to __init__.cpython-38.pyc
+[17.270s] running install_data
+[17.277s] creating /home/projects/ros2_ws/install/follow_the_gap_bridge/share/ament_index
+[17.279s] creating /home/projects/ros2_ws/install/follow_the_gap_bridge/share/ament_index/resource_index
+[17.280s] creating /home/projects/ros2_ws/install/follow_the_gap_bridge/share/ament_index/resource_index/packages
+[17.280s] copying resource/follow_the_gap_bridge -> /home/projects/ros2_ws/install/follow_the_gap_bridge/share/ament_index/resource_index/packages
+[17.281s] copying package.xml -> /home/projects/ros2_ws/install/follow_the_gap_bridge/share/follow_the_gap_bridge
+[17.288s] running install_egg_info
+[17.317s] Copying ../../build/follow_the_gap_bridge/follow_the_gap_bridge.egg-info to /home/projects/ros2_ws/install/follow_the_gap_bridge/lib/python3.8/site-packages/follow_the_gap_bridge-0.0.0-py3.8.egg-info
+[17.324s] running install_scripts
+[17.437s] Installing follow_the_gap_bridge script to /home/projects/ros2_ws/install/follow_the_gap_bridge/lib/follow_the_gap_bridge
+[17.439s] writing list of installed files to '/home/projects/ros2_ws/build/follow_the_gap_bridge/install.log'
+[17.614s] Invoked command in '/home/projects/ros2_ws/src/follow_the_gap_bridge' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/follow_the_gap_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_the_gap_bridge build --build-base /home/projects/ros2_ws/build/follow_the_gap_bridge/build install --prefix /home/projects/ros2_ws/install/follow_the_gap_bridge --record /home/projects/ros2_ws/build/follow_the_gap_bridge/install.log --single-version-externally-managed
