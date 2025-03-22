@@ -87,7 +87,7 @@ graph TD;
 ### Architectural Overview
 This project utilized the Hector SLAM with the Robocar platform, Triton-AI's implementation of F1Tenth's Follow the Gap algorithm, and YOLOv5 for object detection. We also used [djnighti/ucsd_robocar container](https://hub.docker.com/r/djnighti/ucsd_robocar), with significant adaptations for integration between our ROS2 project nodes, including mapping, object-detection, and movement.
 
-### SLAM (Simultaneous Localization and Mapping) Implementation with ROS1-Bridge-ROS2 and Hector+Robocar
+### SLAM (Simultaneous Localization and Mapping) with ROS1-Bridge-ROS2 and Hector+Robocar
 For the SLAM implementation, our team used the ROS1-Bridge-ROS2 to ensure seamless communication between ROS1 and ROS2 components. This setup was crucial as it allowed us to leverage existing ROS1 packages within the newer ROS2 framework. We chose the Hector SLAM algorithm for our project due to its robust performance in indoor environments with limited computational resources. Hector SLAM, combined with the Robocar platform, allowed us to generate accurate and reliable maps of the environment in real-time. As the robot navigated, the SLAM system continuously updated its map and localized the robot within that map. One of the challenges we faced was ensuring that the data from the Lidar, which is inherently noisy, was processed effectively. The Lidar output wasn’t always clean, leading to occasional inaccuracies in the map generation. To overcome this, we fine-tuned the filter parameters in Hector SLAM to better handle the noisy Lidar data, resulting in improved map consistency and a more accurate localization of the robot within the environment.
 
 ### F1-Tenth's “Follow the Gap” Algorithm
