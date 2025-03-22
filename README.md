@@ -109,5 +109,5 @@ arbaker@ucsd.edu | [LinkedIn](https://www.linkedin.com/in/alicia-r-baker)
 psakhuja@ucsd.edu | [LinkedIn](https://www.linkedin.com/in/pranavsakhuja)
 
  
-**S**idharth Mundra |
+**S**iddharth Mundra |
 smundra@ucsd.edu
