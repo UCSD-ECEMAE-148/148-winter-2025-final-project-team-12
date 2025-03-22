@@ -55,9 +55,10 @@ https://github.com/user-attachments/assets/1549cafd-7ef7-4579-bd22-0805c3ce8e3a
 
 
 ## Challenges
-- We originally wanted to use VSLAM running on the OAK-D Pro processor from the TA car so that we could have a 3D point cloud map for precise mapping, but we ran into a plethora of compatability issues and ultimately had to give up on that idea after a week of effort
-- The initial idea of running both VSLAM and the object-detection script on the OAK-D Pro camera proved to have problems due to multiple accesses of the same port. We tried to resolve this issue by posting the camera feed to a server and having the scripts pull the data from the server, but this also did not work for us
-- We tried using the SICK TiM LiDAR for the original implementation of the SLAM idea, but ran into issues and was forced to pivot to the less powerful LD06 LiDAR, which was both simpler to use and had much more supporting documentation that was provided by the class staff
+- We originally wanted to use VSLAM running on the OAK-D Pro processor from the TA car so that we could have a 3D point cloud map for precise mapping, but we ran into a plethora of compatability issues and ultimately had to give up on that idea after a week of effort.
+- The initial idea of running both VSLAM and the object-detection script on the OAK-D Pro camera proved to have problems due to multiple accesses of the same port. We tried to resolve this issue by posting the camera feed to a server and having the scripts pull the data from the server, but this also did not work for us.
+- We tried using the SICK TiM LiDAR for the original implementation of the SLAM idea, but ran into issues and was forced to pivot to the less powerful LD06 LiDAR, which was both simpler to use and had much more supporting documentation that was provided by the class staff.
+- Overall, integration between the different software components and communication between the follow the gap, object-detection, and lidar scanning nodes proved to be very challenging. Each of us spent countless hours trying to work through implementation, but in the end the plethora of dependency issues and stubborn software bugs really bogged down our progress.
 
 Here is a video of the VSLAM running on a lab pc! Even though we didn't end up using it, we still think it's pretty cool:<br>
 
