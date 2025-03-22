@@ -14,7 +14,6 @@
 </div>
 
 ## Team Members
-
 <ins>**M**</ins>atthew Tan |
  *ECE: Computer Engineering* 
 
@@ -96,9 +95,10 @@ We integrated [Triton-AI's implementation](https://github.com/Triton-AI/follow-t
 ### Object Detection with YOLO v5 and ROS Integration
 For object detection, we utilized a pre-trained [YOLOv5](https://github.com/ultralytics/yolov5) model to detect objects in the robot's environment, focusing specifically on detecting humans. We filtered the model to detect only the "person" class (class ID 0 in the COCO dataset), which allowed us to focus on human presence within the environment. The YOLO model was integrated with our ROS system, where the binary output (1 for person detected, 0 for not detected) was published to a ROS topic for further processing. One of the key challenges was ensuring that the model was running efficiently on our robot’s hardware, as object detection can be computationally intensive. To address this, we used a lightweight version of YOLOv5 and optimized the model for real-time performance. Additionally, we faced challenges with false positives and missed detections, especially in cluttered environments. To mitigate this, we fine-tuned the model's confidence thresholds and used additional post-processing techniques to filter out false detections, enhancing the accuracy of the detection system. The successful integration of YOLOv5 allowed the robot to effectively identify and respond to human presence, adding a layer of interaction to the navigation system.
 
+## Acknowledgements
+Thank you to Professor Jack Silberman and our incredible TAs Alexander Haken and Winston Chou for an amazing Winter 2025 class!
 
 ## Contact
-
 **M**atthew Tan |
 mztan@ucsd.edu | [LinkedIn](https://www.linkedin.com/in/matthewztan)
 
